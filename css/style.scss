@@ -118,19 +118,10 @@ li{
   position: relative;
   z-index: 2;
 }
-
-
-
-
-
 .header_list a:hover {
   color: aqua;
 }
 
-.container {
-  padding: 100px 15px;
-  margin: 0 auto;
-}
 
 @media (max-width:768px) {
   body.lock{
