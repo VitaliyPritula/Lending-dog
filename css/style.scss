@@ -136,7 +136,7 @@ button {
   padding: 60px 15px 45px;
   display: flex;
   justify-content: flex-end;
-  h1 {
+  div {
     font-size: 38px;
     padding: 0 11% 0 0;
     font-family: "bebas";
@@ -160,6 +160,8 @@ hr {
   height: 1px;
   border: none;
 }
+
+
 .section-our_work {
   background-color: #fdfdfd;
   h1 {
@@ -170,6 +172,14 @@ hr {
 
   .row {
     padding: 33px 0;
+  }
+}
+
+.section{
+  h1 {
+    font-size: 33px;
+    padding: 36px 0 16px;
+    color: rgb(114, 111, 116);
   }
 }
 .slick-slider {
@@ -281,6 +291,25 @@ hr {
     }
   }
 }
+.section-prics{
+ 
+  .tab-btn {
+    background: #dcd1f1;
+  }
+  .btn-tab-active {
+    background: #a988c8;
+  }
+  
+  .table-dark-alt th {
+    background-color: /*#C0A8FA*/ #a988c8;
+    color: white;
+  }
+  .table-dark-alt, .table-dark-alt>th{
+    background: #dcd1f1;
+  }
+}
+
+
 
 @media (max-width: 768px) {
   body.lock {
