@@ -7,10 +7,8 @@
 }
 
 @font-face {
-  font-family: "AvantGardeGothicCTT";
-  src: url("../fonts/ofont.ru_AvantGardeGothicCTT.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Avant";
+  src: url("../fonts/AvantGardeGothicC-Demi.otf") format("truetype");
 }
 
 * {
@@ -90,7 +88,7 @@ h3 {
   padding: 20px 20px 0 0;
   font-size: 30px;
   font-weight: 800;
-  font-family: "AvantGardeGothicC";
+  font-family: "Avant";
   color: #ac86b6;
   line-height: 1.014;
 }
@@ -122,7 +120,7 @@ h3 {
 
 .header_list a {
   font-size: 16.667px;
-  font-family: "AvantGardeGothicCTT";
+  font-family: "Avant";
   color: #726f74;
   text-decoration: none;
 }
@@ -367,7 +365,7 @@ hr {
   }
   .header-burger::after,
   .header-burger::before {
-    content: '';
+    content: "";
     background-color: #726f74;
     position: absolute;
     width: 100%;
@@ -428,5 +426,17 @@ hr {
   .header_list li {
     margin: 0 0 20px 0;
   }
+}
+
+.slide-test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 600px;
+  height: 400px;
+}
+
+.slider-test .slick-slide {
+  margin: 0 30px;
 }
 /*# sourceMappingURL=style.css.map */
