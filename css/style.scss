@@ -295,6 +295,12 @@ hr {
     }
     .slick-list{
       height: 500px;
+      position: relative;
+    }
+    .slick-dots{
+      position: absolute;
+      top: 86%;
+      left: 50%;
     }
   }
   .slider__item {
@@ -327,9 +333,7 @@ hr {
   
   
 }
-.doc{
-  
-  
+.doc{  
   div {
     background-color:#deccea; 
      max-width: 380px;
@@ -367,9 +371,6 @@ hr {
 
 
 @media (max-width: 768px) {
-  body.lock {
-    overflow: hidden;
-  }
   .header-body {
     height: 50px;
   }

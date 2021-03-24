@@ -355,6 +355,13 @@ hr {
 
 .section-slic_slider .slider_master .slick-list {
   height: 500px;
+  position: relative;
+}
+
+.section-slic_slider .slider_master .slick-dots {
+  position: absolute;
+  top: 86%;
+  left: 50%;
 }
 
 .section-slic_slider .slider__item h2 {
@@ -417,9 +424,6 @@ hr {
 }
 
 @media (max-width: 768px) {
-  body.lock {
-    overflow: hidden;
-  }
   .header-body {
     height: 50px;
   }
