@@ -253,7 +253,7 @@ hr {
 }
 
 .slider .slick-dots {
-  padding: 45px 0 35px;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -283,38 +283,18 @@ hr {
 }
 
 
-.slider_master {
-  padding: 60px 0;
-  // width: 800px;
-  height: 530px;
-  margin: 0 auto;
-  
-}
 
 .section-slic_slider {
   background-color: #dbcde9;
-  .slick-slide {
-    // display: flex;
-  }
-  .slide-info{
-    display: flex;
-    height: 400px;
-    width: 700px;
+  .slider_master {
+    // width: 800px;
+    height: 530px;
     margin: 0 auto;
-    background-color:#f0e2fa;
-
-    .doc {
-     background-color:#deccea; 
-      max-width: 380px;
-      font-size: 16px;
-      text-align: left;
-      text-align: justify;
-      font-family: "AvantGardeGothicC";
-      color: rgb(49, 48, 50);
-      line-height: 1.5;
-      padding: 17px;
-      margin-left: -20px;
-      // position: absolute;
+    .slider__item{
+      display: flex;
+    }
+    .slick-list{
+      height: 500px;
     }
   }
   .slider__item {
@@ -330,7 +310,40 @@ hr {
     
   }
 }
+.slide-info{
+  background-color:#f0e2fa;
+  width: 800px;
+  margin: 0 auto;
+  padding: 0 30px 30px;
 
+  h1{
+    padding: 5px 0 5px;
+  }
+}
+
+.slider-title{
+  display: flex;
+  height: 400px;
+  
+  
+}
+.doc{
+  
+  
+  div {
+    background-color:#deccea; 
+     max-width: 380px;
+     font-size: 16px;
+     text-align: left;
+     text-align: justify;
+     font-family: "AvantGardeGothicC";
+     color: rgb(49, 48, 50);
+     line-height: 1.5;
+     padding: 17px;
+     margin-left: -20px;
+     // position: absolute;
+   }
+}
 
 
 .section-prics{

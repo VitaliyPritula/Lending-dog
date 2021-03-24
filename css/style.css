@@ -296,7 +296,7 @@ hr {
 }
 
 .slider .slick-dots {
-  padding: 45px 0 35px;
+  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -338,37 +338,23 @@ hr {
   max-height: 260px;
 }
 
-.slider_master {
-  padding: 60px 0;
-  height: 530px;
-  margin: 0 auto;
-}
-
 .section-slic_slider {
   background-color: #dbcde9;
 }
 
-.section-slic_slider .slide-info {
+.section-slic_slider .slider_master {
+  height: 530px;
+  margin: 0 auto;
+}
+
+.section-slic_slider .slider_master .slider__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 400px;
-  width: 700px;
-  margin: 0 auto;
-  background-color: #f0e2fa;
 }
 
-.section-slic_slider .slide-info .doc {
-  background-color: #deccea;
-  max-width: 380px;
-  font-size: 16px;
-  text-align: left;
-  text-align: justify;
-  font-family: "AvantGardeGothicC";
-  color: #313032;
-  line-height: 1.5;
-  padding: 17px;
-  margin-left: -20px;
+.section-slic_slider .slider_master .slick-list {
+  height: 500px;
 }
 
 .section-slic_slider .slider__item h2 {
@@ -380,6 +366,37 @@ hr {
 .section-slic_slider .slider__item img {
   max-width: 309px;
   max-height: 380px;
+}
+
+.slide-info {
+  background-color: #f0e2fa;
+  width: 800px;
+  margin: 0 auto;
+  padding: 0 30px 30px;
+}
+
+.slide-info h1 {
+  padding: 5px 0 5px;
+}
+
+.slider-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 400px;
+}
+
+.doc div {
+  background-color: #deccea;
+  max-width: 380px;
+  font-size: 16px;
+  text-align: left;
+  text-align: justify;
+  font-family: "AvantGardeGothicC";
+  color: #313032;
+  line-height: 1.5;
+  padding: 17px;
+  margin-left: -20px;
 }
 
 .section-prics .tab-btn {
