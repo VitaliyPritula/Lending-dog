@@ -13,27 +13,10 @@ $(document).ready(function() {
         });
         $('.slider-test').not('.slick-initialized').slick({
             slidesToShow: 1,
-            // dots: true,
             centerMode: true,
             centerPagging: '500px',
-            // focusOnSelect: true,
             speed:1000,
             variableWidth: true
-            // autoplaySpeed:800,
-            // responsive:[
-            //     {
-            //         breakpoint: 768,
-            //         settings: {
-            //             slidesToShow:2
-            //         }
-            //     },
-            //     {
-            //         breakpoint: 550,
-            //         settings: {
-            //             slidesToShow:1
-            //         }
-            //     }
-            // ]
         });
     });
     
