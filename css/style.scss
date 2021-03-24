@@ -50,6 +50,7 @@ h3 {
     }
   }
   &-logo {
+    width: 400px;
     text-align: center;
     img {
       padding: 30px 40px 37px;
@@ -106,14 +107,54 @@ h3 {
 }
 
 .onepage-pagination {
-    position: absolute;
-    right: 17%;
-    top: 50%;
-    z-index: 5;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  position: absolute;
+  right: 17%;
+  top: 50%;
+  z-index: 5;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
+
+.onepage-pagination li {
+  a{
+    &:before{
+      width: 13px;
+      height: 13px;
+      display: block;  
+      margin-bottom: 10px;
+      border: solid 1px rgb(114, 111, 116);
+      background-color: transparent;
+      border-style: solid;
+      border-radius: 50%;    
+    } 
+    &.active:before {
+      width: 15px;
+      height: 15px;
+      background-color: rgb(120, 93, 134);
+      margin-top: 0;
+      left: 9px;
+      border:none;
+    }
+  }
+}
+.Эллипс_1 {
+  border-width: 0.88px;
+  border-color: rgb(114, 111, 116);
+  border-style: solid;
+  border-radius: 50%;
+ 
+  position: absolute;
+  left: 1426px;
+  top: 391px;
+  width: 13px;
+  height: 13px;
+  z-index: 18;
+}
+
+
+
+
 
 .container {
   max-width: 1024px;
@@ -163,7 +204,6 @@ button {
   border: none;
   cursor: pointer;
 }
-
 
 hr {
   background-color: rgb(49, 48, 50);
@@ -255,6 +295,7 @@ hr {
   background-color: #785d86;
 }
 .slider__item {
+  display: flex;
   padding: 0px 15px;
   text-align: center;
 }
