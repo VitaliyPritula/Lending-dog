@@ -14,7 +14,7 @@ $(document).ready(function() {
         $('.slider-test').not('.slick-initialized').slick({
             slidesToShow: 1,
             // dots: true,
-            // centerMode: true,
+            centerMode: true,
             centerPagging: '200px',
             // focusOnSelect: true,
             speed:1000,

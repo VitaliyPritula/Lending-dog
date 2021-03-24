@@ -40,21 +40,22 @@ h3 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
 }
 
 .header-title {
   background-color: #ac86b6;
-  width: 350px;
-  height: 290px;
-  border-radius: 0 0 100%;
+  width: 540px;
+  height: 540px;
+  border-radius: 50%;
   color: #fff;
+  margin-top: -18%;
 }
 
 .header-title h1 {
-  padding: 100px 11px;
+  padding: 74% 0 52px;
   font-size: 47px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -130,8 +131,18 @@ h3 {
   font-weight: 800;
 }
 
+.onepage-pagination {
+  position: absolute;
+  right: 17%;
+  top: 50%;
+  z-index: 5;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
-  max-width: 1200px;
+  max-width: 1024px;
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
@@ -139,9 +150,38 @@ h3 {
 
 .section-main {
   background-image: url("../img/bagraund-img.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 90vh;
+  height: 100vh;
+}
+
+.section-main .title-b {
+  padding: 40px 15px 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.section-main .title-b div {
+  font-size: 38px;
+  padding: 0 11% 0 0;
+  font-family: "bebas";
+  color: #9c80c0;
+  text-transform: uppercase;
+}
+
+.section-main .title-b .btn {
+  font-size: 25px;
+  font-family: "bebas";
+  background-color: #f8d90c;
+  border-radius: 5px;
+  padding: 10px 20px;
+  height: 50px;
+}
+
+.section-main .title-b .btn a {
+  color: #6211c9;
 }
 
 .section-img {
@@ -154,38 +194,6 @@ button {
   outline: none;
   border: none;
   cursor: pointer;
-}
-
-.section-title {
-  background-color: #efedf9;
-}
-
-.title-b {
-  padding: 60px 15px 45px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.title-b div {
-  font-size: 38px;
-  padding: 0 11% 0 0;
-  font-family: "bebas";
-  color: #9c80c0;
-  text-transform: uppercase;
-}
-
-.title-b .btn {
-  font-size: 25px;
-  font-family: "bebas";
-  color: #6211c9;
-  background-color: #f8d90c;
-  border-radius: 5px;
-  padding: 10px 20px;
-  height: 50px;
 }
 
 hr {
@@ -208,12 +216,6 @@ hr {
 
 .section-our_work .row {
   padding: 33px 0;
-}
-
-.section h1 {
-  font-size: 33px;
-  padding: 36px 0 16px;
-  color: #726f74;
 }
 
 .slick-slider {
