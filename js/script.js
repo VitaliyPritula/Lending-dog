@@ -15,7 +15,7 @@ $(document).ready(function() {
             slidesToShow: 1,
             // dots: true,
             centerMode: true,
-            centerPagging: '200px',
+            centerPagging: '500px',
             // focusOnSelect: true,
             speed:1000,
             variableWidth: true

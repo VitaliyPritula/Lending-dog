@@ -39,7 +39,7 @@ h3 {
     color: #fff;
     margin-top: -18%;
     h1 {
-      padding: 74% 0 52px;
+      padding: 77% 0 24%;
       font-size: 47px;
       transform: rotate(-45deg);
       font-weight: 100;
@@ -138,24 +138,6 @@ h3 {
     }
   }
 }
-.Эллипс_1 {
-  border-width: 0.88px;
-  border-color: rgb(114, 111, 116);
-  border-style: solid;
-  border-radius: 50%;
- 
-  position: absolute;
-  left: 1426px;
-  top: 391px;
-  width: 13px;
-  height: 13px;
-  z-index: 18;
-}
-
-
-
-
-
 .container {
   max-width: 1024px;
   width: 100%;
@@ -164,8 +146,6 @@ h3 {
 }
 .section-main {
   background-image: url("../img/bagraund-img.jpg");
-  // background-repeat: no-repeat;
-  // background-size: 100%;
   height: 100vh;
 
   .title-b {
@@ -198,7 +178,6 @@ h3 {
   max-width: 700px;
 }
 
-
 button {
   outline: none;
   border: none;
@@ -212,8 +191,6 @@ hr {
   height: 1px;
   border: none;
 }
-
-
 .section-our_work {
   background-color: #fdfdfd;
   h1 {
@@ -243,6 +220,7 @@ hr {
   position: relative;
   padding: 0px 60px;
 }
+
 
 @media (max-width: 767px) {
   .slider {
@@ -303,17 +281,43 @@ hr {
   max-width: 349px;
   max-height: 260px;
 }
+
+
 .slider_master {
   padding: 60px 0;
   // width: 800px;
   height: 530px;
   margin: 0 auto;
-  background-color: #f0e2fa;
+  
 }
-.section-title {
-  .slider__item {
+
+.section-slic_slider {
+  background-color: #dbcde9;
+  .slick-slide {
+    // display: flex;
+  }
+  .slide-info{
     display: flex;
-    // position: relative;
+    height: 400px;
+    width: 700px;
+    margin: 0 auto;
+    background-color:#f0e2fa;
+
+    .doc {
+     background-color:#deccea; 
+      max-width: 380px;
+      font-size: 16px;
+      text-align: left;
+      text-align: justify;
+      font-family: "AvantGardeGothicC";
+      color: rgb(49, 48, 50);
+      line-height: 1.5;
+      padding: 17px;
+      margin-left: -20px;
+      // position: absolute;
+    }
+  }
+  .slider__item {
     h2 {
       font-size: 37px;
       font-family: "AvantGardeGothicC";
@@ -323,20 +327,12 @@ hr {
       max-width: 309px;
       max-height: 380px;
     }
-    div {
-      background-color: #deccea;
-      max-width: 360px;
-      font-size: 16px;
-      text-align: left;
-      font-family: "AvantGardeGothicC";
-      color: rgb(49, 48, 50);
-      line-height: 1.5;
-      padding: 10px;
-      margin-left: -20px;
-      // position: absolute;
-    }
+    
   }
 }
+
+
+
 .section-prics{
  
   .tab-btn {

@@ -55,7 +55,7 @@ h3 {
 }
 
 .header-title h1 {
-  padding: 74% 0 52px;
+  padding: 77% 0 24%;
   font-size: 47px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -160,19 +160,6 @@ h3 {
   margin-top: 0;
   left: 9px;
   border: none;
-}
-
-.Эллипс_1 {
-  border-width: 0.88px;
-  border-color: #726f74;
-  border-style: solid;
-  border-radius: 50%;
-  position: absolute;
-  left: 1426px;
-  top: 391px;
-  width: 13px;
-  height: 13px;
-  z-index: 18;
 }
 
 .container {
@@ -355,36 +342,44 @@ hr {
   padding: 60px 0;
   height: 530px;
   margin: 0 auto;
-  background-color: #f0e2fa;
 }
 
-.section-title .slider__item {
+.section-slic_slider {
+  background-color: #dbcde9;
+}
+
+.section-slic_slider .slide-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 400px;
+  width: 700px;
+  margin: 0 auto;
+  background-color: #f0e2fa;
 }
 
-.section-title .slider__item h2 {
+.section-slic_slider .slide-info .doc {
+  background-color: #deccea;
+  max-width: 380px;
+  font-size: 16px;
+  text-align: left;
+  text-align: justify;
+  font-family: "AvantGardeGothicC";
+  color: #313032;
+  line-height: 1.5;
+  padding: 17px;
+  margin-left: -20px;
+}
+
+.section-slic_slider .slider__item h2 {
   font-size: 37px;
   font-family: "AvantGardeGothicC";
   color: #521d61;
 }
 
-.section-title .slider__item img {
+.section-slic_slider .slider__item img {
   max-width: 309px;
   max-height: 380px;
-}
-
-.section-title .slider__item div {
-  background-color: #deccea;
-  max-width: 360px;
-  font-size: 16px;
-  text-align: left;
-  font-family: "AvantGardeGothicC";
-  color: #313032;
-  line-height: 1.5;
-  padding: 10px;
-  margin-left: -20px;
 }
 
 .section-prics .tab-btn {
