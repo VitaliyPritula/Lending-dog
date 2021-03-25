@@ -1,14 +1,26 @@
 @charset "UTF-8";
 @font-face {
   font-family: "bebas";
-  src: url("../fonts/bebas.ttf") format("truetype");
-  font-style: normal;
+  src: url("../fonts/bebas-webfont.woff") format("woff"), url("../fonts/bebas-webfont.woff2") format("woff2");
   font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: "Avant";
-  src: url("../fonts/AvantGardeGothicC-Demi.otf") format("truetype");
+  font-family: "avant";
+  src: url("../fonts/avantgardegothicc-demi-webfont.woff") format("woff"), url("../fonts/avantgardegothicc-demi-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Baskerville";
+  src: url("../fonts/BaskervilleLight.woff") format("woff"), url("../fonts/baskerville.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 * {
@@ -51,17 +63,18 @@ h3 {
   height: 540px;
   border-radius: 50%;
   color: #fff;
-  margin-top: -18%;
+  margin-top: -20%;
 }
 
 .header-title h1 {
-  padding: 77% 0 24%;
-  font-size: 47px;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-  font-weight: 100;
+  padding: 78% 0 24%;
+  font-size: 30px;
+  -webkit-transform: rotate(-35deg);
+          transform: rotate(-35deg);
+  font-weight: 500;
   font-family: "bebas";
   color: #fbfafb;
+  font-weight: revert;
   line-height: 1.014;
   text-align: center;
 }
@@ -76,8 +89,9 @@ h3 {
 }
 
 .header-logo div {
-  font-size: 25px;
-  font-family: "bebas";
+  font-size: 17px;
+  font-family: "Baskerville";
+  font-weight: normal;
   color: #726f74;
   text-align: center;
 }
@@ -90,7 +104,7 @@ h3 {
   padding: 20px 20px 0 0;
   font-size: 30px;
   font-weight: 800;
-  font-family: "Avant";
+  font-family: "avant";
   color: #ac86b6;
   line-height: 1.014;
 }
@@ -108,6 +122,7 @@ h3 {
 }
 
 .menu-nav {
+  padding: 30px 0 0;
   margin: 0 auto;
 }
 
@@ -171,37 +186,37 @@ h3 {
 
 .section-main {
   background-image: url("../img/bagraund-img.jpg");
-  height: 100vh;
 }
 
 .section-main .title-b {
-  padding: 40px 15px 45px;
+  padding: 25px 15px 45px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  font-family: "bebas";
 }
 
 .section-main .title-b div {
-  font-size: 38px;
-  padding: 0 11% 0 0;
-  font-family: "bebas";
+  font-size: 28px;
+  font-weight: 900;
+  padding: 12px 2% 0 0;
   color: #9c80c0;
   text-transform: uppercase;
 }
 
 .section-main .title-b .btn {
   font-size: 25px;
-  font-family: "bebas";
   background-color: #f8d90c;
   border-radius: 5px;
-  padding: 10px 20px;
-  height: 50px;
+  padding: 0 20px;
+  height: 60px;
 }
 
 .section-main .title-b .btn a {
+  font-weight: 900;
   color: #6211c9;
 }
 
@@ -230,12 +245,13 @@ hr {
 }
 
 .section-our_work h1 {
-  font-size: 33px;
+  font-family: "Baskerville";
+  font-size: 40px;
   padding: 36px 0 16px;
   color: #726f74;
 }
 
-.section-our_work .rowe {
+.section-our_work .row {
   padding: 33px 0;
 }
 
@@ -366,7 +382,7 @@ hr {
 
 .section-slic_slider .slider__item h2 {
   font-size: 37px;
-  font-family: "AvantGardeGothicC";
+  font-family: "Avant";
   color: #521d61;
 }
 
@@ -384,6 +400,9 @@ hr {
 
 .slide-info h1 {
   padding: 5px 0 5px;
+  font-size: 33.333px;
+  font-family: "BaskervilleLight";
+  color: #726f74;
 }
 
 .slider-title {
