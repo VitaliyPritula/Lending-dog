@@ -10,15 +10,6 @@ $(document).ready(function() {
             slidesToShow:1,
             autoplay:false,
             speed:1000,
-        });
-        $('.slider-test').not('.slick-initialized').slick({
-            slidesToShow: 1,
-            centerMode: true,
-            centerPagging: '500px',
-            speed:1000,
-            variableWidth: true
-        });
-    });
-    
-    
+        });        
+    });    
 });

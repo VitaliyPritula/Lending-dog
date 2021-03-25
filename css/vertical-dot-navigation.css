@@ -1,0 +1,29 @@
+nav.dot-vrt-nav  {
+    position: fixed;
+    top: 30%;
+    bottom: 62%;
+    left: 85%;
+    width: 60px;
+}
+
+nav.dot-vrt-nav  ul {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav.dot-vrt-nav  li {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: 1px solid #98929d;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.dot-vrt-nav .active {
+    background-color: #785d86;
+}
