@@ -136,24 +136,24 @@ h3 {
 }
 
 .onepage-pagination li {
-  a{
-    &:before{
+  a {
+    &:before {
       width: 13px;
       height: 13px;
-      display: block;  
+      display: block;
       margin-bottom: 10px;
       border: solid 1px rgb(114, 111, 116);
       background-color: transparent;
       border-style: solid;
-      border-radius: 50%;    
-    } 
+      border-radius: 50%;
+    }
     &.active:before {
       width: 15px;
       height: 15px;
       background-color: rgb(120, 93, 134);
       margin-top: 0;
       left: 9px;
-      border:none;
+      border: none;
     }
   }
 }
@@ -239,15 +239,14 @@ hr {
 .slider {
   position: relative;
   padding: 0px 60px;
+  height: 510px;
 }
-
 
 @media (max-width: 767px) {
   .slider {
     padding: 0px 40px;
   }
 }
-
 
 .slider .slick-arrow {
   position: absolute;
@@ -295,29 +294,27 @@ hr {
 .slider__item {
   display: flex;
   padding: 0px 15px;
-  text-align: center;
+  text-align: center;  
 }
+
 .slider__item img {
   max-width: 349px;
   max-height: 260px;
 }
 
-
-
 .section-slic_slider {
   background-color: #dbcde9;
   .slider_master {
-    // width: 800px;
     height: 530px;
     margin: 0 auto;
-    .slider__item{
+    .slider__item {
       display: flex;
     }
-    .slick-list{
+    .slick-list {
       height: 500px;
       position: relative;
     }
-    .slick-dots{
+    .slick-dots {
       position: absolute;
       top: 86%;
       left: 50%;
@@ -333,16 +330,15 @@ hr {
       max-width: 309px;
       max-height: 380px;
     }
-    
   }
 }
-.slide-info{
-  background-color:#f0e2fa;
+.slide-info {
+  background-color: #f0e2fa;
   width: 800px;
   margin: 0 auto;
   padding: 0 30px 30px;
 
-  h1{
+  h1 {
     padding: 5px 0 5px;
     font-size: 33.333px;
     font-family: "BaskervilleLight";
@@ -353,48 +349,43 @@ hr {
 
 }
 
-.slider-title{
+.slider-title {
   display: flex;
   height: 400px;
-  
-  
 }
-.doc{  
+.doc {
   div {
-    background-color:#deccea; 
-     max-width: 380px;
-     font-size: 16px;
-     text-align: left;
-     text-align: justify;
-     font-family: "AvantGardeGothicC";
-     color: rgb(49, 48, 50);
-     line-height: 1.5;
-     padding: 17px;
-     margin-left: -20px;
-     // position: absolute;
-   }
+    background-color: #deccea;
+    max-width: 380px;
+    font-size: 16px;
+    text-align: left;
+    text-align: justify;
+    font-family: "AvantGardeGothicC";
+    color: rgb(49, 48, 50);
+    line-height: 1.5;
+    padding: 17px;
+    margin-left: -20px;
+    // position: absolute;
+  }
 }
 
-
-.section-prics{
- 
+.section-prics {
   .tab-btn {
     background: #dcd1f1;
   }
   .btn-tab-active {
     background: #a988c8;
   }
-  
+
   .table-dark-alt th {
     background-color: /*#C0A8FA*/ #a988c8;
     color: white;
   }
-  .table-dark-alt, .table-dark-alt>th{
+  .table-dark-alt,
+  .table-dark-alt > th {
     background: #dcd1f1;
   }
 }
-
-
 
 @media (max-width: 768px) {
   .header-body {
@@ -471,12 +462,12 @@ hr {
     margin: 0 0 20px 0;
   }
 }
-.slide-test{
+.slide-test {
   display: flex;
   width: 600px;
   height: 400px;
 }
-.slider-test{
+.slider-test {
   .slick-slide {
     margin: 0 30px;
   }
