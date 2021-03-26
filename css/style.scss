@@ -38,8 +38,10 @@ h3 {
     border-radius: 50%;
     color: #fff;
     margin-top: -18%;
+    position: relative;
     h1 {
-      padding: 77% 0 24%;
+      position: absolute;
+      padding:78% 20% 0;
       font-size: 47px;
       transform: rotate(-45deg);
       font-weight: 100;
@@ -74,11 +76,7 @@ h3 {
     }
   }
 }
-.header-container {
-  max-width: 1180px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
+
 .header_list {
   display: flex;
 }
@@ -149,7 +147,7 @@ h3 {
   height: 100vh;
 
   .title-b {
-    padding: 40px 15px 45px;
+    padding: 20px 15px 45px;
     display: flex;
     justify-content: flex-end;
     div {
@@ -195,14 +193,42 @@ hr {
   background-color: #fdfdfd;
   h1 {
     font-size: 33px;
-    padding: 36px 0 16px;
+    padding: 36px 0 0;
     color: rgb(114, 111, 116);
   }
 
   .row {
     padding: 33px 0;
   }
+  .slider__item {
+    position: relative;
+    
+  }
+  .slider_title{
+    top: 30%;
+    padding: 20px;
+    left: 38%;
+    font-family: "Avant";
+    background-color:#dbcde9;
+    position: absolute;
+    max-width: 200px;
+    div{
+      color: rgb(62, 39, 65);
+      font-size: 19px;
+    }
+    a{
+      font-size: 25px;
+      color:#d09f08;
+    }  
+  }
+  .slider__item img {
+    max-width: 349px;
+    max-height: 260px;
+    padding: 15px;
+  }
 }
+
+
 
 .slick-slider {
   min-width: 0;
@@ -240,12 +266,10 @@ hr {
 .slider .slick-arrow.slick-prev {
   display: none;
   left: 0;
-  background: url("../img/sl-arrow_l.svg") 0 0 / 100% no-repeat;
 }
 .slider .slick-arrow.slick-next {
   display: none;
   right: 0;
-  background: url("../img/sl-arrow_r.svg") 0 0 / 100% no-repeat;
 }
 .slider .slick-arrow.slick-disabled {
   opacity: 0.2;
@@ -277,15 +301,13 @@ hr {
   text-align: center;  
 }
 
-.slider__item img {
-  max-width: 349px;
-  max-height: 260px;
-}
+
 
 .section-slic_slider {
   background-color: #dbcde9;
+  height: 498px;
   .slider_master {
-    height: 530px;
+    height: 520px;
     margin: 0 auto;
     .slider__item {
       display: flex;
@@ -360,6 +382,8 @@ hr {
     background: #dcd1f1;
   }
 }
+
+
 
 @media (max-width: 768px) {
   .header-body {
