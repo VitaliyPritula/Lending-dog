@@ -225,12 +225,6 @@ hr {
   background-color: #fdfdfd;
 }
 
-.section-our_work h1 {
-  font-size: 33px;
-  padding: 36px 0 0;
-  color: #726f74;
-}
-
 .section-our_work .row {
   padding: 33px 0;
 }
@@ -260,9 +254,13 @@ hr {
 }
 
 .section-our_work .slider__item img {
-  max-width: 349px;
-  max-height: 260px;
-  padding: 15px;
+  padding: 0 30px 30px 0;
+}
+
+h1 {
+  font-size: 33px;
+  padding: 36px 0 0;
+  color: #726f74;
 }
 
 .slick-slider {
@@ -287,13 +285,6 @@ hr {
 .slider {
   position: relative;
   padding: 0px 60px;
-  height: 510px;
-}
-
-@media (max-width: 767px) {
-  .slider {
-    padding: 0px 40px;
-  }
 }
 
 .slider .slick-arrow {
@@ -360,7 +351,7 @@ hr {
 
 .section-slic_slider {
   background-color: #dbcde9;
-  height: 498px;
+  height: 488px;
 }
 
 .section-slic_slider .slider_master {
@@ -526,17 +517,8 @@ hr {
   .header_list li {
     margin: 0 0 20px 0;
   }
-}
-
-.slide-test {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 600px;
-  height: 400px;
-}
-
-.slider-test .slick-slide {
-  margin: 0 30px;
+  .slider {
+    padding: 0px 40px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

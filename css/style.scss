@@ -191,18 +191,11 @@ hr {
 }
 .section-our_work {
   background-color: #fdfdfd;
-  h1 {
-    font-size: 33px;
-    padding: 36px 0 0;
-    color: rgb(114, 111, 116);
-  }
-
   .row {
     padding: 33px 0;
   }
   .slider__item {
-    position: relative;
-    
+    position: relative;  
   }
   .slider_title{
     top: 30%;
@@ -221,14 +214,18 @@ hr {
       color:#d09f08;
     }  
   }
-  .slider__item img {
-    max-width: 349px;
-    max-height: 260px;
-    padding: 15px;
+  .slider__item {
+    img {
+      padding: 0 30px 30px 0;
+    }
   }
 }
 
-
+h1{
+  font-size: 33px;
+  padding: 36px 0 0;
+  color:#726f74;
+}
 
 .slick-slider {
   min-width: 0;
@@ -245,13 +242,6 @@ hr {
 .slider {
   position: relative;
   padding: 0px 60px;
-  height: 510px;
-}
-
-@media (max-width: 767px) {
-  .slider {
-    padding: 0px 40px;
-  }
 }
 
 .slider .slick-arrow {
@@ -281,6 +271,7 @@ hr {
   align-items: center;
   justify-content: center;
 }
+
 .slider .slick-dots li {
   list-style: none;
   margin: 0px 10px;
@@ -300,12 +291,9 @@ hr {
   padding: 0px 15px;
   text-align: center;  
 }
-
-
-
 .section-slic_slider {
   background-color: #dbcde9;
-  height: 498px;
+  height: 488px;
   .slider_master {
     height: 520px;
     margin: 0 auto;
@@ -361,11 +349,10 @@ hr {
     line-height: 1.5;
     padding: 17px;
     margin-left: -20px;
-    // position: absolute;
   }
 }
-
 .section-prics {
+ 
   .tab-btn {
     background: #dcd1f1;
   }
@@ -382,6 +369,15 @@ hr {
     background: #dcd1f1;
   }
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -459,14 +455,8 @@ hr {
   .header_list li {
     margin: 0 0 20px 0;
   }
-}
-.slide-test {
-  display: flex;
-  width: 600px;
-  height: 400px;
-}
-.slider-test {
-  .slick-slide {
-    margin: 0 30px;
+  .slider {
+    padding: 0px 40px;
   }
 }
+
