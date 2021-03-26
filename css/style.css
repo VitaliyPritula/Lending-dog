@@ -259,7 +259,7 @@ hr {
 
 h1 {
   font-size: 33px;
-  padding: 36px 0 0;
+  padding: 36px 0 20px;
   color: #726f74;
 }
 
@@ -351,12 +351,16 @@ h1 {
 
 .section-slic_slider {
   background-color: #dbcde9;
-  height: 488px;
+  max-height: 520px;
 }
 
 .section-slic_slider .slider_master {
   height: 520px;
   margin: 0 auto;
+}
+
+.section-slic_slider .slider_master h1 {
+  padding: 10px 0;
 }
 
 .section-slic_slider .slider_master .slider__item {
@@ -366,7 +370,7 @@ h1 {
 }
 
 .section-slic_slider .slider_master .slick-list {
-  height: 500px;
+  height: 520px;
   position: relative;
 }
 
@@ -383,22 +387,20 @@ h1 {
 }
 
 .section-slic_slider .slider__item img {
-  max-width: 309px;
-  max-height: 380px;
+  max-width: 305px;
+  max-height: 372px;
 }
 
 .slide-info {
   background-color: #f0e2fa;
   width: 800px;
+  height: 520px;
   margin: 0 auto;
   padding: 0 30px 30px;
 }
 
-.slide-info h1 {
-  padding: 5px 0 5px;
-}
-
 .slider-title {
+  padding: 30px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

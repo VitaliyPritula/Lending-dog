@@ -223,7 +223,7 @@ hr {
 
 h1{
   font-size: 33px;
-  padding: 36px 0 0;
+  padding: 36px 0 20px;
   color:#726f74;
 }
 
@@ -293,15 +293,18 @@ h1{
 }
 .section-slic_slider {
   background-color: #dbcde9;
-  height: 488px;
+  max-height: 520px;
   .slider_master {
     height: 520px;
     margin: 0 auto;
+    h1{
+      padding: 10px 0;
+    }
     .slider__item {
       display: flex;
     }
     .slick-list {
-      height: 500px;
+      height: 520px;
       position: relative;
     }
     .slick-dots {
@@ -317,23 +320,25 @@ h1{
       color: rgb(82, 29, 97);
     }
     img {
-      max-width: 309px;
-      max-height: 380px;
+      max-width: 305px;
+      max-height: 372px;
     }
   }
 }
 .slide-info {
   background-color: #f0e2fa;
   width: 800px;
+  height: 520px;
   margin: 0 auto;
   padding: 0 30px 30px;
 
   h1 {
-    padding: 5px 0 5px;
+    // padding: 10px 0 0;
   }
 }
 
 .slider-title {
+  padding: 30px 0;
   display: flex;
   height: 400px;
 }
