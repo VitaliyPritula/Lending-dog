@@ -1,29 +1,14 @@
 @font-face {
   font-family: "bebas";
-  src: url("../fonts/bebas-webfont.woff") format("woff"),
-      url("../fonts/bebas-webfont.woff2") format("woff2");
-  font-weight: normal;
+  src: url("../fonts/bebas.ttf") format("truetype");
   font-style: normal;
-  font-display: swap;
+  font-weight: normal;
 }
 
 @font-face {
-  font-family: "avant";
-  src: url("../fonts/avantgardegothicc-demi-webfont.woff") format("woff"),
-      url("../fonts/avantgardegothicc-demi-webfont.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+  font-family: "Avant";
+  src: url("../fonts/AvantGardeGothicC-Demi.otf") format("truetype");
 }
-@font-face {
-  font-family: "Baskerville";
-  src: url("../fonts/BaskervilleLight.woff") format("woff"),
-      url("../fonts/baskerville.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -52,19 +37,17 @@ h3 {
     height: 540px;
     border-radius: 50%;
     color: #fff;
-    margin-top: -20%;
+    margin-top: -18%;
     h1 {
-      padding: 78% 0 24%;
-      font-size: 30px;
-      transform: rotate(-35deg);
-      font-weight: 500;
+      padding: 77% 0 24%;
+      font-size: 47px;
+      transform: rotate(-45deg);
+      font-weight: 100;
       font-family: "bebas";
-      color: #fbfafb;
-      font-weight: revert;
+      color: rgb(251, 250, 251);
       line-height: 1.014;
       text-align: center;
     }
-    
   }
   &-logo {
     width: 400px;
@@ -73,12 +56,11 @@ h3 {
       padding: 30px 40px 37px;
     }
     div {
-      font-size: 17px;
-      font-family: "Baskerville";
-      font-weight: normal;
+      font-size: 25px;
+      font-family: "bebas";
       color: rgb(114, 111, 116);
       text-align: center;
-    }    
+    }
   }
   &-phone {
     padding: 30px 0 0;
@@ -86,7 +68,7 @@ h3 {
       padding: 20px 20px 0 0;
       font-size: 30px;
       font-weight: 800;
-      font-family: "avant";
+      font-family: "Avant";
       color: rgb(172, 134, 182);
       line-height: 1.014;
     }
@@ -101,7 +83,6 @@ h3 {
   display: flex;
 }
 .menu-nav {
-  padding: 30px 0 0;
   margin: 0 auto;
 }
 
@@ -165,27 +146,27 @@ h3 {
 }
 .section-main {
   background-image: url("../img/bagraund-img.jpg");
-  
+  height: 100vh;
+
   .title-b {
-    padding: 25px 15px 45px;
+    padding: 40px 15px 45px;
     display: flex;
     justify-content: flex-end;
-    font-family: "bebas";
     div {
-      font-size: 28px;
-      font-weight: 900;
-      padding: 12px 2% 0 0;
+      font-size: 38px;
+      padding: 0 11% 0 0;
+      font-family: "bebas";
       color: rgb(156, 128, 192);
       text-transform: uppercase;
     }
     .btn {
       font-size: 25px;
+      font-family: "bebas";
       background-color: #f8d90c;
       border-radius: 5px;
-      padding: 0 20px;
-      height: 60px;
+      padding: 10px 20px;
+      height: 50px;
       a{
-        font-weight: 900;
         color: rgb(98, 17, 201);
       }
     }
@@ -213,12 +194,11 @@ hr {
 .section-our_work {
   background-color: #fdfdfd;
   h1 {
-    font-family: "Baskerville";
-    font-size: 40px;
+    font-size: 33px;
     padding: 36px 0 16px;
     color: rgb(114, 111, 116);
   }
-  
+
   .row {
     padding: 33px 0;
   }
@@ -323,7 +303,7 @@ hr {
   .slider__item {
     h2 {
       font-size: 37px;
-      font-family: "Avant";
+      font-family: "AvantGardeGothicC";
       color: rgb(82, 29, 97);
     }
     img {
@@ -340,13 +320,7 @@ hr {
 
   h1 {
     padding: 5px 0 5px;
-    font-size: 33.333px;
-    font-family: "BaskervilleLight";
-    color: rgb(114, 111, 116);
   }
-  
-  
-
 }
 
 .slider-title {
