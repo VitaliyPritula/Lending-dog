@@ -8,6 +8,7 @@
 @font-face {
   font-family: "Avant";
   src: url("../fonts/AvantGardeGothicC-Demi.otf") format("truetype");
+  
 }
 * {
   box-sizing: border-box;
@@ -422,6 +423,41 @@ h1{
 .input-group input{
   height: 20px;
 }
+.about-us{
+  background-image: url("../img/bg-imga.jpg");
+  background-repeat: no-repeat;
+	// background-size: cover;
+  height: 500;
+  color: rgb(251, 249, 253);
+  h1{
+    font-size: 33px;
+    color: rgb(251, 249, 253);
+    font-family: "BaskervilleLight";
+  }
+  hr{
+    background-color:#fff;
+  }
+  div{
+    font-size: 15px;
+    padding: 5px 15px;
+    text-align:justify;
+    max-width: 764px;
+    line-height: 2;
+  } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 1440px) {
   nav.dot-vrt-nav {

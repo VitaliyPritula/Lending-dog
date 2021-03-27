@@ -485,6 +485,31 @@ h1 {
   height: 20px;
 }
 
+.about-us {
+  background-image: url("../img/bg-imga.jpg");
+  background-repeat: no-repeat;
+  height: 500;
+  color: #fbf9fd;
+}
+
+.about-us h1 {
+  font-size: 33px;
+  color: #fbf9fd;
+  font-family: "BaskervilleLight";
+}
+
+.about-us hr {
+  background-color: #fff;
+}
+
+.about-us div {
+  font-size: 15px;
+  padding: 5px 15px;
+  text-align: justify;
+  max-width: 764px;
+  line-height: 2;
+}
+
 @media (min-width: 1440px) {
   nav.dot-vrt-nav {
     left: 79%;
