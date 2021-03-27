@@ -27,10 +27,11 @@ h3 {
   text-align: center;
 }
 .header {
+  max-width: 1450px;
   padding: 0 15px 0 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: end;
+  margin: 0 auto;
   &-title {
     background-color: #ac86b6;
     width: 540px;
@@ -144,7 +145,7 @@ h3 {
 }
 .section-main {
   background-image: url("../img/bagraund-img.jpg");
-  height: 100vh;
+  height: 100%;
 
   .title-b {
     padding: 20px 15px 45px;
@@ -177,6 +178,7 @@ h3 {
 }
 
 button {
+  text-transform: uppercase;
   outline: none;
   border: none;
   cursor: pointer;
@@ -332,9 +334,7 @@ h1{
   margin: 0 auto;
   padding: 0 30px 30px;
 
-  h1 {
-    // padding: 10px 0 0;
-  }
+  
 }
 
 .slider-title {
@@ -375,16 +375,59 @@ h1{
   }
 }
 
+.section-recording{
+  .recording{
+   max-width: 410px;
+   margin: 0 auto;
+   padding: 30px 0;
+    input{
+      outline: 0;
+      border-width: 0 0 1px;
+      border-color: #c7c6c7;
+      margin: 20px 0;
+      width: 100%;
+      font-size: 16.667px;
+      font-family: "BaskervilleLight";
 
+    }
+  }
+}
+.time-section{
+  input{
+    border:none;
+  }  
+  div{
+    font-size: 13px;
+    font-family: "Avant";
+    color: rgb(114, 111, 116);
+    line-height: 2;
+    text-align: center;
+  }
+  
+  .btn-cats{
+    font-size: 29px;
+    font-family: "BebasNeueCyrillic";
+    color: rgb(250, 248, 251);
+    background-color:#9c80c0;
+    text-align: center;
+    padding: 0 65px;
+    width: 100%;
+  }
+}
 
+.input-group-addon{
+  background:none;
+  border:none;
+}
+.input-group input{
+  height: 20px;
+}
 
-
-
-
-
-
-
-
+@media (min-width: 1440px) {
+  nav.dot-vrt-nav {
+    left: 79%;
+  } 
+}
 
 @media (max-width: 768px) {
   .header-body {

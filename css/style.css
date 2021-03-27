@@ -34,15 +34,14 @@ h3 {
 }
 
 .header {
+  max-width: 1450px;
   padding: 0 15px 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  margin: 0 auto;
 }
 
 .header-title {
@@ -167,7 +166,7 @@ h3 {
 
 .section-main {
   background-image: url("../img/bagraund-img.jpg");
-  height: 100vh;
+  height: 100%;
 }
 
 .section-main .title-b {
@@ -208,6 +207,7 @@ h3 {
 }
 
 button {
+  text-transform: uppercase;
   outline: none;
   border: none;
   cursor: pointer;
@@ -436,6 +436,59 @@ h1 {
 .section-prics .table-dark-alt,
 .section-prics .table-dark-alt > th {
   background: #dcd1f1;
+}
+
+.section-recording .recording {
+  max-width: 410px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.section-recording .recording input {
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: #c7c6c7;
+  margin: 20px 0;
+  width: 100%;
+  font-size: 16.667px;
+  font-family: "BaskervilleLight";
+}
+
+.time-section input {
+  border: none;
+}
+
+.time-section div {
+  font-size: 13px;
+  font-family: "Avant";
+  color: #726f74;
+  line-height: 2;
+  text-align: center;
+}
+
+.time-section .btn-cats {
+  font-size: 29px;
+  font-family: "BebasNeueCyrillic";
+  color: #faf8fb;
+  background-color: #9c80c0;
+  text-align: center;
+  padding: 0 65px;
+  width: 100%;
+}
+
+.input-group-addon {
+  background: none;
+  border: none;
+}
+
+.input-group input {
+  height: 20px;
+}
+
+@media (min-width: 1440px) {
+  nav.dot-vrt-nav {
+    left: 79%;
+  }
 }
 
 @media (max-width: 768px) {
