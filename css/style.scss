@@ -458,7 +458,16 @@ h1{
     font-family: "BaskervilleLight";    
   } 
 }
+.section-advantages{
+  .row{
+    max-width: 900px;
+    margin: 0 auto; 
+  }
+  img{
+    width: 250px;
+  }
 
+}
 
 
 

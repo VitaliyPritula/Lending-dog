@@ -526,6 +526,15 @@ h1 {
   font-family: "BaskervilleLight";
 }
 
+.section-advantages .row {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.section-advantages img {
+  width: 250px;
+}
+
 @media (min-width: 1440px) {
   nav.dot-vrt-nav {
     left: 79%;
