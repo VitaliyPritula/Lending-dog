@@ -518,14 +518,14 @@ label {
 
 .raiteng_item:hover,
 .raiteng_item:hover ~ .raiteng_item{
-  color: orange;
+  color:#faea08;
 }
 .raiteng[data-total-value="1"] .raiteng_item:nth-child(n + 5),
 .raiteng[data-total-value="2"] .raiteng_item:nth-child(n + 4),
 .raiteng[data-total-value="3"] .raiteng_item:nth-child(n + 3),
 .raiteng[data-total-value="4"] .raiteng_item:nth-child(n + 2),
 .raiteng[data-total-value="5"] .raiteng_item:nth-child(n + 1){
-  color: orange;
+  color:#faea08;
 }
 .footer{
   background-image: url("../img/footer-img.jpg");
@@ -552,7 +552,7 @@ label {
       line-height: 1.014;
     }
   }
-  
+
   .row{
     max-width: 900px;
     margin: 0 auto; 
@@ -571,7 +571,8 @@ label {
       font-size: 16.667px;
       font-family: "BaskervilleLight";
     }
-   }
+  }
+  
   .btn-cats {
     font-size: 17px;
     font-family: "BaskerLight";
@@ -584,36 +585,46 @@ label {
   }
   &-title{
     text-align: center;
+    color: #ac3ebb;
     a{
-      font-family: "bebas";
       color: #ac3ebb;
       text-decoration: none;
     }
   }
 }
- 
-
-
-
-
-
-
 
 @media (min-width: 1440px) {
   nav.dot-vrt-nav {
     left: 79%;
   } 
 }
-
-
+@media (max-width: 1024px){
+  nav.dot-vrt-nav {
+    left: 90%;
+  } 
+  .header-title{
+   margin: -25% 0 0 -20%; 
+  }
+  .header-logo{
+    width: 360px;
+  }
+}
 @media (max-width: 768px) {
+  .header-title{
+    margin: -35% 0 0 -35%; 
+   }
+   .header-logo{
+    width: 250px;
+   }
   .header-body {
     height: 50px;
   }
   .logo {
     flex: 0 0 40px;
   }
-
+  .header-phone a{
+    font-size: 20px;
+  }
   .header-burger {
     display: block;
     position: relative;
@@ -674,6 +685,11 @@ label {
   .menu-nav.active {
     top: 0;
   }
+  .section-main .title-b div {
+    font-size: 30px;
+    padding: 10px 5% 0 0;
+  }
+
   .header_list {
     display: block;
   }
@@ -682,6 +698,17 @@ label {
   }
   .slider {
     padding: 0px 40px;
+  }
+  .section-our_work {
+    .slider_title {
+      top: 30%;
+      padding: 20px;
+      left: 35%;
+      max-width: 200px;
+    }
+    .slider__item img {
+      max-width: 322px;
+    }
   }
 }
 

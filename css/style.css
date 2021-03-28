@@ -599,7 +599,7 @@ label {
 
 .raiteng_item:hover,
 .raiteng_item:hover ~ .raiteng_item {
-  color: orange;
+  color: #faea08;
 }
 
 .raiteng[data-total-value="1"] .raiteng_item:nth-child(n + 5),
@@ -607,7 +607,7 @@ label {
 .raiteng[data-total-value="3"] .raiteng_item:nth-child(n + 3),
 .raiteng[data-total-value="4"] .raiteng_item:nth-child(n + 2),
 .raiteng[data-total-value="5"] .raiteng_item:nth-child(n + 1) {
-  color: orange;
+  color: #faea08;
 }
 
 .footer {
@@ -674,10 +674,10 @@ label {
 
 .footer-title {
   text-align: center;
+  color: #ac3ebb;
 }
 
 .footer-title a {
-  font-family: "bebas";
   color: #ac3ebb;
   text-decoration: none;
 }
@@ -688,7 +688,25 @@ label {
   }
 }
 
+@media (max-width: 1024px) {
+  nav.dot-vrt-nav {
+    left: 90%;
+  }
+  .header-title {
+    margin: -25% 0 0 -20%;
+  }
+  .header-logo {
+    width: 360px;
+  }
+}
+
 @media (max-width: 768px) {
+  .header-title {
+    margin: -35% 0 0 -35%;
+  }
+  .header-logo {
+    width: 250px;
+  }
   .header-body {
     height: 50px;
   }
@@ -696,6 +714,9 @@ label {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 40px;
             flex: 0 0 40px;
+  }
+  .header-phone a {
+    font-size: 20px;
   }
   .header-burger {
     display: block;
@@ -763,6 +784,10 @@ label {
   .menu-nav.active {
     top: 0;
   }
+  .section-main .title-b div {
+    font-size: 30px;
+    padding: 10px 5% 0 0;
+  }
   .header_list {
     display: block;
   }
@@ -771,6 +796,15 @@ label {
   }
   .slider {
     padding: 0px 40px;
+  }
+  .section-our_work .slider_title {
+    top: 30%;
+    padding: 20px;
+    left: 35%;
+    max-width: 200px;
+  }
+  .section-our_work .slider__item img {
+    max-width: 322px;
   }
 }
 /*# sourceMappingURL=style.css.map */
