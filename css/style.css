@@ -40,6 +40,14 @@ h3 {
   text-align: center;
 }
 
+nav.dot-vrt-nav {
+  position: fixed;
+  top: 30%;
+  bottom: 53%;
+  left: 85%;
+  width: 60px;
+}
+
 .header {
   max-width: 1450px;
   padding: 0 15px 0 0;
@@ -533,6 +541,68 @@ h1 {
 
 .section-advantages img {
   width: 250px;
+}
+
+.section-review {
+  background-color: #9c80c0;
+}
+
+.section-review h1 {
+  font-family: "BaskerLight";
+  color: #fdfdfd;
+  padding: 12px 0 0;
+}
+
+.section-review hr {
+  background-color: #fdfdfd;
+}
+
+.section-review_title {
+  padding: 0 0 20px;
+}
+
+.section-review .col {
+  color: #faf9fa;
+  max-width: 450px;
+  padding: 17px 35px 0;
+  text-align: center;
+}
+
+.section-review a {
+  color: #faf9fa;
+  -webkit-text-decoration: revert;
+          text-decoration: revert;
+}
+
+.raiteng {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.raiteng_item {
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.raiteng_item:hover,
+.raiteng_item:hover ~ .raiteng_item {
+  color: orange;
+}
+
+.raiteng[data-total-value="1"] .raiteng_item:nth-child(n + 5),
+.raiteng[data-total-value="2"] .raiteng_item:nth-child(n + 4),
+.raiteng[data-total-value="3"] .raiteng_item:nth-child(n + 3),
+.raiteng[data-total-value="4"] .raiteng_item:nth-child(n + 2),
+.raiteng[data-total-value="5"] .raiteng_item:nth-child(n + 1) {
+  color: orange;
 }
 
 @media (min-width: 1440px) {

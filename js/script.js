@@ -45,3 +45,12 @@ $(document).ready(function() {
     });    
 });
 
+const raitengItemsList = document.querySelectorAll('.raiteng_item');
+const raitengItemsArray = Array.prototype.slice.call(raitengItemsList);
+
+raitengItemsArray.forEach(item =>
+  item.addEventListener('click', () =>{
+    const {itemValue} = item.dataset;
+    item.parentNode.dataset.totalValue = itemValue;
+  })  
+); 
