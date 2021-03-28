@@ -198,7 +198,10 @@ hr {
     padding: 33px 0;
   }
   .slider__item {
-    position: relative;  
+    position: relative;
+    img{
+      max-width: 400px;
+    }  
   }
   .slider_title{
     top: 30%;
@@ -426,8 +429,8 @@ h1{
 .about-us{
   background-image: url("../img/bg-imga.jpg");
   background-repeat: no-repeat;
-	// background-size: cover;
-  height: 500;
+	background-size: cover;
+  height: 500px;
   color: rgb(251, 249, 253);
   h1{
     font-size: 33px;

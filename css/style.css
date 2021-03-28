@@ -233,6 +233,10 @@ hr {
   position: relative;
 }
 
+.section-our_work .slider__item img {
+  max-width: 400px;
+}
+
 .section-our_work .slider_title {
   top: 30%;
   padding: 20px;
@@ -488,7 +492,8 @@ h1 {
 .about-us {
   background-image: url("../img/bg-imga.jpg");
   background-repeat: no-repeat;
-  height: 500;
+  background-size: cover;
+  height: 500px;
   color: #fbf9fd;
 }
 
