@@ -247,7 +247,7 @@ hr {
 h1{
   font-family: "BaskerLight";
   font-size: 33px;
-  padding: 36px 0 20px;
+  padding: 36px 0 10px;
   color:#726f74;
 }
 
@@ -397,6 +397,11 @@ h1{
   }
 }
 
+label {
+  display: contents;
+  margin-bottom: 0;
+}
+
 .section-recording{
   .recording{
    max-width: 410px;
@@ -491,7 +496,7 @@ h1{
   .col{
     color: #faf9fa;
     max-width: 450px;
-    padding: 17px 35px 0;
+    padding: 17px 35px 30px;
     text-align: center;
   }
   a{
@@ -522,10 +527,71 @@ h1{
 .raiteng[data-total-value="5"] .raiteng_item:nth-child(n + 1){
   color: orange;
 }
-
-
-
-
+.footer{
+  background-image: url("../img/footer-img.jpg");
+  background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  color: #939197;  
+  
+  .contact{
+    padding: 50px 0 0;
+    font-size: 16px;
+    font-family: "Avant";
+    a{
+      color:#939197;
+    }
+    div{
+      padding: 0 0 50px;
+    }
+    span a{
+      font-size: 25px;
+      font-weight: 800;
+      font-family: "Avant";
+      color: #ac86b6;
+      line-height: 1.014;
+    }
+  }
+  
+  .row{
+    max-width: 900px;
+    margin: 0 auto; 
+  }
+  .recording{
+    max-width: 410px;
+    margin: 0 auto;
+    padding: 5px 0 30px;
+    input{
+      background-color:transparent;  
+      outline: 0;
+      border-width: 0 0 3px;
+      border-color: #c7c6c7;
+      margin: 20px 0;
+      width: 100%;
+      font-size: 16.667px;
+      font-family: "BaskervilleLight";
+    }
+   }
+  .btn-cats {
+    font-size: 17px;
+    font-family: "BaskerLight";
+    color: #ac3ebb;
+    background-color: #f8d90c;
+    text-align: center;
+    padding: 0 65px;
+    width: 100%;
+    
+  }
+  &-title{
+    text-align: center;
+    a{
+      font-family: "bebas";
+      color: #ac3ebb;
+      text-decoration: none;
+    }
+  }
+}
+ 
 
 
 
@@ -538,6 +604,7 @@ h1{
     left: 79%;
   } 
 }
+
 
 @media (max-width: 768px) {
   .header-body {

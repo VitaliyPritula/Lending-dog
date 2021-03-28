@@ -45,6 +45,11 @@ $(document).ready(function() {
     });    
 });
 
+$(function () {
+    $('#datetimepicker2').datetimepicker({
+        locale: 'ru'
+    });
+});
 const raitengItemsList = document.querySelectorAll('.raiteng_item');
 const raitengItemsArray = Array.prototype.slice.call(raitengItemsList);
 
