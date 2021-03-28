@@ -7,6 +7,13 @@
 }
 
 @font-face {
+  font-family: "BaskerLight";
+  src: url("../fonts/BaskerbilleLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
   font-family: "Avant";
   src: url("../fonts/AvantGardeGothicC-Demi.otf") format("truetype");
 }
@@ -77,10 +84,11 @@ h3 {
 }
 
 .header-logo div {
-  font-size: 25px;
-  font-family: "bebas";
+  font-size: 18px;
+  font-family: "BaskerLight";
   color: #726f74;
   text-align: center;
+  letter-spacing: 2px;
 }
 
 .header-phone {
@@ -116,15 +124,16 @@ h3 {
 }
 
 .header_list a {
-  font-size: 16.667px;
+  font-size: 15;
   font-family: "Avant";
   color: #726f74;
   text-decoration: none;
+  font-weight: 100;
+  margin: 0 10px;
 }
 
 .header_list a:hover {
   color: #726f74;
-  font-weight: 800;
 }
 
 .onepage-pagination {
@@ -262,6 +271,7 @@ hr {
 }
 
 h1 {
+  font-family: "BaskerLight";
   font-size: 33px;
   padding: 36px 0 20px;
   color: #726f74;
@@ -493,14 +503,14 @@ h1 {
   background-image: url("../img/bg-imga.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  background-position: center;
+  height: 450px;
   color: #fbf9fd;
 }
 
 .about-us h1 {
   font-size: 33px;
   color: #fbf9fd;
-  font-family: "BaskervilleLight";
 }
 
 .about-us hr {
@@ -513,6 +523,7 @@ h1 {
   text-align: justify;
   max-width: 764px;
   line-height: 2;
+  font-family: "BaskervilleLight";
 }
 
 @media (min-width: 1440px) {

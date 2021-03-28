@@ -4,11 +4,16 @@
   font-style: normal;
   font-weight: normal;
 }
+@font-face {
+  font-family: "BaskerLight";
+  src: url("../fonts/BaskerbilleLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
 
 @font-face {
   font-family: "Avant";
-  src: url("../fonts/AvantGardeGothicC-Demi.otf") format("truetype");
-  
+  src: url("../fonts/AvantGardeGothicC-Demi.otf") format("truetype");  
 }
 * {
   box-sizing: border-box;
@@ -60,10 +65,11 @@ h3 {
       padding: 30px 40px 37px;
     }
     div {
-      font-size: 25px;
-      font-family: "bebas";
+      font-size: 18px;
+      font-family: "BaskerLight";
       color: rgb(114, 111, 116);
       text-align: center;
+      letter-spacing: 2px;
     }
   }
   &-phone {
@@ -91,20 +97,23 @@ h3 {
   margin: 0 0 0 20px;
 }
 
+
 .header-burger {
   display: none;
 }
 
 .header_list a {
-  font-size: 16.667px;
+  font-size: 15;
   font-family: "Avant";
   color: rgb(114, 111, 116);
   text-decoration: none;
+  font-weight: 100;
+  margin: 0 10px;
   &:hover {
     color: rgb(114, 111, 116);
-    font-weight: 800;
   }
 }
+
 
 .onepage-pagination {
   position: absolute;
@@ -228,6 +237,7 @@ hr {
 }
 
 h1{
+  font-family: "BaskerLight";
   font-size: 33px;
   padding: 36px 0 20px;
   color:#726f74;
@@ -392,7 +402,6 @@ h1{
       width: 100%;
       font-size: 16.667px;
       font-family: "BaskervilleLight";
-
     }
   }
 }
@@ -430,12 +439,12 @@ h1{
   background-image: url("../img/bg-imga.jpg");
   background-repeat: no-repeat;
 	background-size: cover;
-  height: 500px;
+  background-position: center;
+  height: 450px;
   color: rgb(251, 249, 253);
   h1{
     font-size: 33px;
     color: rgb(251, 249, 253);
-    font-family: "BaskervilleLight";
   }
   hr{
     background-color:#fff;
@@ -446,6 +455,7 @@ h1{
     text-align:justify;
     max-width: 764px;
     line-height: 2;
+    font-family: "BaskervilleLight";    
   } 
 }
 
