@@ -446,7 +446,7 @@ label {
   border:none;
 }
 .input-group input{
-  height: 20px;
+  height: 35px;
 }
 .about-us{
   background-image: url("../img/bg-imga.jpg");
@@ -564,7 +564,7 @@ label {
     input{
       background-color:transparent;  
       outline: 0;
-      border-width: 0 0 3px;
+      border-width: 0 0 1px;
       border-color: #c7c6c7;
       margin: 20px 0;
       width: 100%;
@@ -591,6 +591,12 @@ label {
       text-decoration: none;
     }
   }
+}
+
+.datepicker-custom {
+    background-image: url("../img/calendar.png");
+    background-repeat: no-repeat;    
+    background-position: right;    
 }
 
 @media (min-width: 1440px) {

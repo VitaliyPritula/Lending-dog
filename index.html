@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="css/all.css">
-  <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.css">
   <link rel="stylesheet" href="css/vertical-dot-navigation.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -1627,27 +1627,21 @@
     <section class="section-recording">
       <div class="container">
         <div class="recording">
-          <input type="text" name="name" placeholder="Имя">
-          <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Телефон">       
-          
-          <div class="form-group">
-            <label for="date" class="" ></label>
-            <div class="input-group date form_date" data-date="data" data-date-format="dd MM yyyy" data-link-field="dtp_input2" data-link-format="mm-dd-yyyy">
-                <input class="form-control" id="date" name="date" type="text" placeholder="дата">
-                <span class="input-group-addon pointer">
-                    <i class="fa fa-calendar"></i>
-                </span>
+          <div class="form-group">            
+            <div class="input-group">
+              <input class="form-control" type="text" name="name" placeholder="Имя">
             </div>
-        </div>
-        <div class="form-group2">
-          <label for="date" class="" ></label>
-          <div class="input-group date form_date" data-date="data" data-date-format="dd MM yyyy" data-link-field="dtp_input2" data-link-format="mm-dd-yyyy">
-              <input class="form-control" id="date" name="date" type="text" placeholder="Желаемое время">
-              <span class="input-group-addon pointer">
-                  <i class="fa fa-calendar"></i>
-              </span>
+            <div class="input-group">
+              <input class="form-control" type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Телефон">
+            </div>          
+            <div class="input-group date">
+              <input type="text" class="form-control datepicker-custom" id="datepicker1" placeholder="Дата">              
+            </div>
           </div>
-        </div>
+          <div class="input-group date">
+            <input type="text" class="form-control datepicker-custom" id="datepicker2" placeholder="Желаемое время">              
+          </div>
+        </div>        
           <!-- <i class="fa fa-calendar"></i> -->
           <div class="time-section">
             <div>Прием заказов: пн-пт: 11:00 - 20:00 сб-вс: 10:18</div>
@@ -1765,27 +1759,21 @@
           </div>
           <div class="col">
             <div class="recording">
-              <input type="text" name="name" placeholder="Имя">
-              <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Телефон">       
-              
               <div class="form-group">
-                <label for="date" class="" ></label>
-                <div class="input-group date form_date" data-date="data" data-date-format="dd MM yyyy" data-link-field="dtp_input2" data-link-format="mm-dd-yyyy">
-                    <input class="form-control" id="date" name="date" type="text" placeholder="дата">
-                    <span class="input-group-addon pointer">
-                        <i class="fa fa-calendar"></i>
-                    </span>
+                <div class="input-group">
+                  <input class="form-control" type="text" name="name" placeholder="Имя">
                 </div>
-            </div>
-            <div class="form-group2">
-              <label for="date" class="" ></label>
-              <div class="input-group date form_date" data-date="data" data-date-format="dd MM yyyy" data-link-field="dtp_input2" data-link-format="mm-dd-yyyy">
-                <input class="form-control" id="date" name="date" type="text" placeholder="Желаемое время">
-                <span class="input-group-addon pointer">
-                    <i class="fa fa-calendar"></i>
-                </span>
+                <div class="input-group">
+                  <input class="form-control" type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Телефон">
+                </div>          
+                <div class="input-group date">
+                  <input type="text" class="form-control datepicker-custom" id="datepicker3" placeholder="Дата">              
+                </div>
               </div>
-            </div>
+              <div class="input-group date">
+                <input type="text" class="form-control datepicker-custom" id="datepicker4" placeholder="Желаемое время">              
+              </div>
+              </div>
               <div class="time-section">
                 <div>Прием заказов: пн-пт: 11:00 - 20:00 сб-вс: 10:18</div>
                 <button class="btn-cats">Записаться</button>
@@ -1801,8 +1789,7 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
   <script type="text/javascript" src="js/vertical-dot-navigation.js"></script>
- <script src="js/bootstrap-datetimepicker.js"></script>
- <script src="js/bootstrap-datetimepicker.ru.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.full.min.js"></script> 
   <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
