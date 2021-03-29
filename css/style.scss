@@ -6,9 +6,7 @@
 }
 @font-face {
   font-family: "BaskerLight";
-  src: url("../fonts/BaskerbilleLight.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
+  src: url("../fonts/Baskerville-Light.ttf") format("truetype");  
 }
 @font-face {
   font-family: "bebas-ciryllic";
@@ -323,7 +321,7 @@ h1{
 .slider__item {
   display: flex;
   padding: 0px 15px;
-  text-align: center;  
+  text-align: center;
 }
 .section-slic_slider {
   background-color: #dbcde9;

@@ -352,118 +352,118 @@ let magicActions = function(el) {
 
 // Mobile
 // Complex small
-let complex_mobile_arrow_up = document.getElementById('complex-mobile-arrow-up');
-let complex_mobile_arrow_down = document.getElementById('complex-mobile-arrow-down');
+// let complex_mobile_arrow_up = document.getElementById('complex-mobile-arrow-up');
+// let complex_mobile_arrow_down = document.getElementById('complex-mobile-arrow-down');
 
-let complex_mobile_plus_up = document.getElementById('complex-mobile-plus-up');
-let complex_mobile_plus_down = document.getElementById('complex-mobile-plus-down');
+// let complex_mobile_plus_up = document.getElementById('complex-mobile-plus-up');
+// let complex_mobile_plus_down = document.getElementById('complex-mobile-plus-down');
 
-let complex_mobile_small = document.getElementById('complex-mobile-small');
-complex_mobile_small.addEventListener('click', function() {
-    if (complex_mobile_small.classList.contains('collapsed')) {
-        complex_mobile_arrow_up.classList.add('hide');
-        complex_mobile_arrow_down.classList.remove('hide');
+// let complex_mobile_small = document.getElementById('complex-mobile-small');
+// complex_mobile_small.addEventListener('click', function() {
+//     if (complex_mobile_small.classList.contains('collapsed')) {
+//         complex_mobile_arrow_up.classList.add('hide');
+//         complex_mobile_arrow_down.classList.remove('hide');
 
-        complex_mobile_plus_up.classList.add('hide');
-        complex_mobile_plus_down.classList.remove('hide');
+//         complex_mobile_plus_up.classList.add('hide');
+//         complex_mobile_plus_down.classList.remove('hide');
 
-        console.log('collapsed');
-    } else {
-        complex_mobile_arrow_up.classList.remove('hide');
-        complex_mobile_arrow_down.classList.add('hide');
+//         console.log('collapsed');
+//     } else {
+//         complex_mobile_arrow_up.classList.remove('hide');
+//         complex_mobile_arrow_down.classList.add('hide');
 
-        complex_mobile_plus_up.classList.remove('hide');
-        complex_mobile_plus_down.classList.add('hide');
+//         complex_mobile_plus_up.classList.remove('hide');
+//         complex_mobile_plus_down.classList.add('hide');
 
-        console.log('NO collapsed');
-    }
+//         console.log('NO collapsed');
+//     }
 
-    console.log('complex_mobile_small.addEventListener');
-});
+//     console.log('complex_mobile_small.addEventListener');
+// });
 
 // Complex middle
-let complex_middle_arrow_up = document.getElementById('complex-middle-arrow-up');
-let complex_middle_arrow_down = document.getElementById('complex-middle-arrow-down');
+// let complex_middle_arrow_up = document.getElementById('complex-middle-arrow-up');
+// let complex_middle_arrow_down = document.getElementById('complex-middle-arrow-down');
 
-let complex_middle_plus_up = document.getElementById('complex-middle-plus-up');
-let complex_middle_plus_down = document.getElementById('complex-middle-plus-down');
+// let complex_middle_plus_up = document.getElementById('complex-middle-plus-up');
+// let complex_middle_plus_down = document.getElementById('complex-middle-plus-down');
 
-let complex_mobile_middle = document.getElementById('complex-mobile-middle');
-complex_mobile_middle.addEventListener('click', function() {
-    if (complex_mobile_middle.classList.contains('collapsed')) {
-        complex_middle_arrow_up.classList.add('hide');
-        complex_middle_arrow_down.classList.remove('hide');
+// let complex_mobile_middle = document.getElementById('complex-mobile-middle');
+// complex_mobile_middle.addEventListener('click', function() {
+//     if (complex_mobile_middle.classList.contains('collapsed')) {
+//         complex_middle_arrow_up.classList.add('hide');
+//         complex_middle_arrow_down.classList.remove('hide');
 
-        complex_middle_plus_up.classList.add('hide');
-        complex_middle_plus_down.classList.remove('hide');
+//         complex_middle_plus_up.classList.add('hide');
+//         complex_middle_plus_down.classList.remove('hide');
 
-        console.log('collapsed middle');
-    } else {
-        complex_middle_arrow_up.classList.remove('hide');
-        complex_middle_arrow_down.classList.add('hide');
+//         console.log('collapsed middle');
+//     } else {
+//         complex_middle_arrow_up.classList.remove('hide');
+//         complex_middle_arrow_down.classList.add('hide');
 
-        complex_middle_plus_up.classList.remove('hide');
-        complex_middle_plus_down.classList.add('hide');
+//         complex_middle_plus_up.classList.remove('hide');
+//         complex_middle_plus_down.classList.add('hide');
 
-        console.log('NO collapsed middle');
-    }
-});
+//         console.log('NO collapsed middle');
+//     }
+// });
 
 // Complex large
-let complex_large_arrow_up = document.getElementById('complex-large-arrow-up');
-let complex_large_arrow_down = document.getElementById('complex-large-arrow-down');
+// let complex_large_arrow_up = document.getElementById('complex-large-arrow-up');
+// let complex_large_arrow_down = document.getElementById('complex-large-arrow-down');
 
-let complex_large_plus_up = document.getElementById('complex-large-plus-up');
-let complex_large_plus_down = document.getElementById('complex-large-plus-down');
+// let complex_large_plus_up = document.getElementById('complex-large-plus-up');
+// let complex_large_plus_down = document.getElementById('complex-large-plus-down');
 
-let complex_mobile_large = document.getElementById('complex-mobile-large');
-complex_mobile_large.addEventListener('click', function() {
-    if (complex_mobile_large.classList.contains('collapsed')) {
-        complex_large_arrow_up.classList.add('hide');
-        complex_large_arrow_down.classList.remove('hide');
+// let complex_mobile_large = document.getElementById('complex-mobile-large');
+// complex_mobile_large.addEventListener('click', function() {
+//     if (complex_mobile_large.classList.contains('collapsed')) {
+//         complex_large_arrow_up.classList.add('hide');
+//         complex_large_arrow_down.classList.remove('hide');
 
-        complex_large_plus_up.classList.add('hide');
-        complex_large_plus_down.classList.remove('hide');
+//         complex_large_plus_up.classList.add('hide');
+//         complex_large_plus_down.classList.remove('hide');
 
-        console.log('collapsed large');
-    } else {
-        complex_large_arrow_up.classList.remove('hide');
-        complex_large_arrow_down.classList.add('hide');
+//         console.log('collapsed large');
+//     } else {
+//         complex_large_arrow_up.classList.remove('hide');
+//         complex_large_arrow_down.classList.add('hide');
 
-        complex_large_plus_up.classList.remove('hide');
-        complex_large_plus_down.classList.add('hide');
+//         complex_large_plus_up.classList.remove('hide');
+//         complex_large_plus_down.classList.add('hide');
 
-        console.log('NO collapsed large');
-    }
-});
+//         console.log('NO collapsed large');
+//     }
+// });
 
 // Complex mestizo
-let complex_mestizo_arrow_up = document.getElementById('complex-mestizo-arrow-up');
-let complex_mestizo_arrow_down = document.getElementById('complex-mestizo-arrow-down');
+// let complex_mestizo_arrow_up = document.getElementById('complex-mestizo-arrow-up');
+// let complex_mestizo_arrow_down = document.getElementById('complex-mestizo-arrow-down');
 
-let complex_mestizo_plus_up = document.getElementById('complex-mestizo-plus-up');
-let complex_mestizo_plus_down = document.getElementById('complex-mestizo-plus-down');
+// let complex_mestizo_plus_up = document.getElementById('complex-mestizo-plus-up');
+// let complex_mestizo_plus_down = document.getElementById('complex-mestizo-plus-down');
 
-let complex_mobile_mestizo = document.getElementById('complex-mobile-mestizo');
-complex_mobile_mestizo.addEventListener('click', function() {
-    if (complex_mobile_mestizo.classList.contains('collapsed')) {
-        complex_mestizo_arrow_up.classList.add('hide');
-        complex_mestizo_arrow_down.classList.remove('hide');
+// let complex_mobile_mestizo = document.getElementById('complex-mobile-mestizo');
+// complex_mobile_mestizo.addEventListener('click', function() {
+//     if (complex_mobile_mestizo.classList.contains('collapsed')) {
+//         complex_mestizo_arrow_up.classList.add('hide');
+//         complex_mestizo_arrow_down.classList.remove('hide');
 
-        complex_mestizo_plus_up.classList.add('hide');
-        complex_mestizo_plus_down.classList.remove('hide');
+//         complex_mestizo_plus_up.classList.add('hide');
+//         complex_mestizo_plus_down.classList.remove('hide');
 
-        console.log('collapsed mestizo');
-    } else {
-        complex_mestizo_arrow_up.classList.remove('hide');
-        complex_mestizo_arrow_down.classList.add('hide');
+//         console.log('collapsed mestizo');
+//     } else {
+//         complex_mestizo_arrow_up.classList.remove('hide');
+//         complex_mestizo_arrow_down.classList.add('hide');
 
-        complex_mestizo_plus_up.classList.remove('hide');
-        complex_mestizo_plus_down.classList.add('hide');
+//         complex_mestizo_plus_up.classList.remove('hide');
+//         complex_mestizo_plus_down.classList.add('hide');
 
-        console.log('NO collapsed mestizo');
-    }
-});
+//         console.log('NO collapsed mestizo');
+//     }
+// });
 
 
 
