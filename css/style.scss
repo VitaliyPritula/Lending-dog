@@ -379,7 +379,10 @@ h1{
   }
 }
 .section-prics {
- 
+  
+  .text-center{
+    padding: 50px 0 0;
+  }
   .tab-btn {
     background: #dcd1f1;
   }
@@ -390,6 +393,9 @@ h1{
   .table-dark-alt th {
     background-color: /*#C0A8FA*/ #a988c8;
     color: white;
+  }
+  .tab-btn {
+    font-size: 15px;
   }
   .table-dark-alt,
   .table-dark-alt > th {
@@ -417,7 +423,23 @@ label {
       font-family: "BaskervilleLight";
     }
   }
+  .form-control{
+    padding: 0;
+    font-size: 16px;
+  }
+  .time-section div{
+    font-family: "Avant";
+    padding: 30px 0;
+  }
+
+  .form-control+.input-group-addon:not(:first-child) {
+    position: absolute;
+    right: -4%;
+    z-index: 2;
+    top: 10px;
+  }
 }
+
 .time-section{
   input{
     border:none;
@@ -483,7 +505,6 @@ label {
 .section-review{
   background-color:#9c80c0;
   h1{
-    font-family: "BaskerLight";
     color: rgb(253, 253, 253);
     padding: 12px 0 0;
   }
@@ -491,16 +512,24 @@ label {
     background-color: rgb(253, 253, 253);
   }
   &_title{
-    padding: 0 0 20px;
+    font-family: "BaskerLight";
+    color: rgb(250, 249, 250);
+    padding: 0 25px 20px;
+    line-height: 1.7;
+    text-align: center;
+  }
+
+  h3{
+    font-family: "BaskerLight";
   }
   .col{
-    color: #faf9fa;
+    color: rgb(250, 249, 250);
     max-width: 450px;
     padding: 17px 35px 30px;
     text-align: center;
   }
   a{
-    color: #faf9fa;
+    color: #e1d9eb;
     text-decoration: revert;
   }
 
@@ -536,8 +565,8 @@ label {
   
   .contact{
     padding: 50px 0 0;
-    font-size: 16px;
-    font-family: "Avant";
+    font-size: 20px;
+    font-family: "BaskerLight";
     a{
       color:#939197;
     }
@@ -558,7 +587,7 @@ label {
     margin: 0 auto; 
   }
   .recording{
-    max-width: 410px;
+    max-width: 310px;
     margin: 0 auto;
     padding: 5px 0 30px;
     input{
@@ -568,11 +597,22 @@ label {
       border-color: #c7c6c7;
       margin: 20px 0;
       width: 100%;
-      font-size: 16.667px;
       font-family: "BaskervilleLight";
     }
   }
-  
+  .form-control{
+    padding: 0;
+    font-size: 16px;
+  }
+  .fa-calendar:before {
+    content: "\f133";
+  }
+
+  .form-control+.input-group-addon:not(:first-child) {
+    // border-left: 0;
+    position: absolute;
+    right: -5%;
+  }
   .btn-cats {
     font-size: 17px;
     font-family: "BaskerLight";

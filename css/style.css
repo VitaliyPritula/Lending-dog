@@ -385,6 +385,10 @@ h1 {
   margin-left: -20px;
 }
 
+.section-prics .text-center {
+  padding: 50px 0 0;
+}
+
 .section-prics .tab-btn {
   background: #dcd1f1;
 }
@@ -395,6 +399,10 @@ h1 {
   background-color: #a988c8;
   color: white;
 }
+.section-prics .tab-btn {
+  font-size: 15px;
+}
+
 .section-prics .table-dark-alt,
 .section-prics .table-dark-alt > th {
   background: #dcd1f1;
@@ -418,6 +426,23 @@ label {
   width: 100%;
   font-size: 16.667px;
   font-family: "BaskervilleLight";
+}
+
+.section-recording .form-control {
+  padding: 0;
+  font-size: 16px;
+}
+
+.section-recording .time-section div {
+  font-family: "Avant";
+  padding: 30px 0;
+}
+
+.section-recording .form-control + .input-group-addon:not(:first-child) {
+  position: absolute;
+  right: -4%;
+  z-index: 2;
+  top: 10px;
 }
 
 .time-section input {
@@ -485,7 +510,6 @@ label {
   background-color: #9c80c0;
 }
 .section-review h1 {
-  font-family: "BaskerLight";
   color: #fdfdfd;
   padding: 12px 0 0;
 }
@@ -493,7 +517,15 @@ label {
   background-color: #fdfdfd;
 }
 .section-review_title {
-  padding: 0 0 20px;
+  font-family: "BaskerLight";
+  color: #faf9fa;
+  padding: 0 25px 20px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.section-review h3 {
+  font-family: "BaskerLight";
 }
 .section-review .col {
   color: #faf9fa;
@@ -502,7 +534,7 @@ label {
   text-align: center;
 }
 .section-review a {
-  color: #faf9fa;
+  color: #e1d9eb;
   text-decoration: revert;
 }
 
@@ -539,8 +571,8 @@ label {
 }
 .footer .contact {
   padding: 50px 0 0;
-  font-size: 16px;
-  font-family: "Avant";
+  font-size: 20px;
+  font-family: "BaskerLight";
 }
 .footer .contact a {
   color: #939197;
@@ -560,7 +592,7 @@ label {
   margin: 0 auto;
 }
 .footer .recording {
-  max-width: 410px;
+  max-width: 310px;
   margin: 0 auto;
   padding: 5px 0 30px;
 }
@@ -571,8 +603,21 @@ label {
   border-color: #c7c6c7;
   margin: 20px 0;
   width: 100%;
-  font-size: 16.667px;
   font-family: "BaskervilleLight";
+}
+
+.footer .form-control {
+  padding: 0;
+  font-size: 16px;
+}
+
+.footer .fa-calendar:before {
+  content: "\f133";
+}
+
+.footer .form-control + .input-group-addon:not(:first-child) {
+  position: absolute;
+  right: -5%;
 }
 .footer .btn-cats {
   font-size: 17px;
