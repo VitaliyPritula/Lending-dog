@@ -114,7 +114,6 @@ nav.dot-vrt-nav {
   margin: 0 0 0 20px;
 }
 
-
 .header-burger {
   display: none;
 }
@@ -175,9 +174,9 @@ nav.dot-vrt-nav {
   height: 100%;
 
   .title-b {
-    padding: 20px 15px 45px;
+    padding: 20px 15px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     div {
       font-size: 38px;
       padding: 0 40px 0 0;
@@ -676,7 +675,7 @@ label {
     margin: -35% 0 0 -35%; 
    }
    .header-logo{
-    width: 250px;
+    width: 240px;
    }
   .header-body {
     height: 50px;
@@ -693,6 +692,7 @@ label {
     width: 30px;
     height: 20px;
     z-index: 2;
+    margin: 28px 0 0;
     transition: all 0.3s else 0s;
   }
   .header-burger::after,
@@ -761,6 +761,10 @@ label {
   .slider {
     padding: 0px 40px;
   }
+
+  .section-main .title-b {
+    padding: 20px 15px;
+  }
   .section-our_work {
     .slider_title {
       top: 30%;
@@ -771,6 +775,16 @@ label {
     .slider__item img {
       max-width: 322px;
     }
+  }
+  .section-slic_slider .slider_master .slick-dots {
+    top: 89%;
+  }
+  .slide-info{
+    padding: 0 15px 30px;
+  }
+  .doc div {
+    max-width: 349px;
+    font-size: 14px;
   }
 }
 
