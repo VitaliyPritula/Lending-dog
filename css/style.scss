@@ -10,10 +10,19 @@
   font-style: normal;
   font-weight: normal;
 }
-
+@font-face {
+  font-family: "bebas-ciryllic";
+  src: url("../fonts/bebas-ciryllic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
 @font-face {
   font-family: "Avant";
   src: url("../fonts/AvantGardeGothicC-Demi.otf") format("truetype");  
+}
+@font-face {
+  font-family: "Avant-Book";
+  src: url("../fonts/AvantGardeGothicCBook.otf") format("truetype");  
 }
 * {
   box-sizing: border-box;
@@ -73,7 +82,7 @@ nav.dot-vrt-nav {
       padding: 30px 40px 37px;
     }
     div {
-      font-size: 18px;
+      font-size: 20px;
       font-family: "BaskerLight";
       color: rgb(114, 111, 116);
       text-align: center;
@@ -171,18 +180,19 @@ nav.dot-vrt-nav {
     justify-content: flex-end;
     div {
       font-size: 38px;
-      padding: 0 11% 0 0;
-      font-family: "bebas";
+      padding: 0 40px 0 0;
+      font-family: "bebas-ciryllic";
       color: rgb(156, 128, 192);
       text-transform: uppercase;
     }
     .btn {
       font-size: 25px;
       font-family: "bebas";
+      margin-top: 9px;
       background-color: #f8d90c;
       border-radius: 5px;
-      padding: 10px 20px;
-      height: 50px;
+      padding: 2px 20px;
+      height: 40px;
       a{
         color: rgb(98, 17, 201);
       }
@@ -322,7 +332,7 @@ h1{
     height: 520px;
     margin: 0 auto;
     h1{
-      padding: 10px 0;
+      padding: 0;
     }
     .slider__item {
       display: flex;
@@ -338,25 +348,19 @@ h1{
     }
   }
   .slider__item {
-    h2 {
-      font-size: 37px;
-      font-family: "AvantGardeGothicC";
-      color: rgb(82, 29, 97);
-    }
+    
     img {
       max-width: 305px;
-      max-height: 372px;
+      min-height: 382px;
     }
   }
 }
 .slide-info {
   background-color: #f0e2fa;
-  width: 800px;
+  width: 725px;
   height: 520px;
   margin: 0 auto;
   padding: 0 30px 30px;
-
-  
 }
 
 .slider-title {
@@ -365,13 +369,17 @@ h1{
   height: 400px;
 }
 .doc {
+  font-family: "Avant-Book";
+  h2 {
+    font-size: 37px;
+    font-family: "BaskerLight";
+    color: rgb(82, 29, 97);
+  }
   div {
     background-color: #deccea;
     max-width: 380px;
     font-size: 16px;
-    text-align: left;
     text-align: justify;
-    font-family: "AvantGardeGothicC";
     color: rgb(49, 48, 50);
     line-height: 1.5;
     padding: 17px;
@@ -412,7 +420,7 @@ label {
   .recording{
    max-width: 410px;
    margin: 0 auto;
-   padding: 30px 0;
+   padding: 30px 0 50px;
     input{
       outline: 0;
       border-width: 0 0 1px;
@@ -475,7 +483,7 @@ label {
   background-repeat: no-repeat;
 	background-size: cover;
   background-position: center;
-  height: 450px;
+  height: 500px;
   color: rgb(251, 249, 253);
   h1{
     font-size: 33px;
@@ -485,12 +493,12 @@ label {
     background-color:#fff;
   }
   div{
-    font-size: 15px;
+    font-size: 17px;
     padding: 5px 15px;
     text-align:justify;
     max-width: 764px;
     line-height: 2;
-    font-family: "BaskervilleLight";    
+    font-family: "Avant-Book";    
   } 
 }
 .section-advantages{
@@ -595,7 +603,7 @@ label {
       outline: 0;
       border-width: 0 0 1px;
       border-color: #c7c6c7;
-      margin: 20px 0;
+      margin: 10px 0;
       width: 100%;
       font-family: "BaskervilleLight";
     }
@@ -619,7 +627,8 @@ label {
     color: #ac3ebb;
     background-color: #f8d90c;
     text-align: center;
-    padding: 0 65px;
+    padding: 10px 65px;
+    font-weight: bold;
     width: 100%;
     
   }
@@ -629,6 +638,13 @@ label {
     a{
       color: #ac3ebb;
       text-decoration: none;
+    }
+  }
+  .time-section{
+    
+    div {
+      font-family: "Avant";
+      padding: 15px 0 20px;
     }
   }
 }
