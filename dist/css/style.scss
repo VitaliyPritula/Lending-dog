@@ -89,6 +89,7 @@ nav.dot-vrt-nav {
   }
   &-phone {
     padding: 30px 0 0;
+    display: flex;
     a {
       padding: 20px 20px 0 0;
       font-size: 30px;
@@ -174,6 +175,7 @@ nav.dot-vrt-nav {
   .title-b {
     padding: 20px 15px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     div {
       font-size: 38px;
@@ -480,7 +482,7 @@ label {
   background-repeat: no-repeat;
 	background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 68vh;
   color: rgb(251, 249, 253);
   h1{
     font-size: 33px;
@@ -674,6 +676,7 @@ label {
    }
    .header-logo{
     width: 240px;
+    margin: 0 auto;
    }
   .header-body {
     height: 50px;
@@ -683,6 +686,7 @@ label {
   }
   .header-phone a{
     font-size: 20px;
+    z-index: 10;
   }
   .header-burger {
     display: block;
@@ -690,7 +694,7 @@ label {
     width: 30px;
     height: 20px;
     z-index: 2;
-    margin: 28px 0 0;
+    margin: 22px 0 0;
     transition: all 0.3s else 0s;
   }
   .header-burger::after,
@@ -784,5 +788,58 @@ label {
     max-width: 349px;
     font-size: 14px;
   }
+  .footer .contact span a {
+    font-size: 21px;
+  }
 }
 
+@media (max-width: 425px) {
+  .header-title {
+    margin: -70% 0 0 -76%;
+    h1 {
+      font-size: 40px;
+      padding: 78% 27% 0;
+    }
+  }
+  .section-img img{
+    max-width: 400px;
+  }  
+  .header-logo img {
+    padding: 0 40px 10px;
+  }
+  .header-phone{
+    margin: 0 auto;
+  }
+  .section-main .title-b div {
+    font-size: 23px;
+    padding: 10px 0 0 0;
+  }
+  .section-our_work .slider_title {
+    top: 38%;
+    padding: 20px;
+    left: 19%;
+    max-width: 200px;
+  }
+}
+
+
+@media (max-width: 375px){
+  .section-img img {
+    max-width: 330px;
+  }
+}
+
+@media (max-width: 320px){
+  .header-title {
+    margin: -95% 0 0 -100%;
+  }
+  .section-img img {
+    max-width: 290px;
+  }
+  .section-our_work .slider__item img {
+    padding: 0 97px 30px 0;
+  }
+  nav.dot-vrt-nav {
+    left: 86%;
+  } 
+}
