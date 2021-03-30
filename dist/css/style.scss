@@ -571,7 +571,7 @@ label {
   color: #939197;  
   
   .contact{
-    padding: 50px 0 0;
+    padding: 30px 0 0;
     font-size: 20px;
     font-family: "BaskerLight";
     a{
@@ -784,6 +784,7 @@ label {
       max-width: 322px;
     }
   }
+  
 
   .slide-info{
     padding: 0 15px 30px;
@@ -796,6 +797,7 @@ label {
   .footer .contact span a {
     font-size: 21px;
   }
+
 }
 
 @media (max-width: 425px) {
@@ -830,7 +832,6 @@ label {
   }
   .section-slic_slider .slider_master h1 {
     padding: 0;
-    text-align: left;
   }
   .section-slic_slider {
     background-color: #dbcde9;
@@ -851,6 +852,14 @@ label {
     background-color:transparent;
     padding: 0 0 30px;
   }
+  .section-slic_slider .slider_master .slick-dots {
+    position: absolute;
+    top: 95%;
+    left: 36%;
+  }
+  .footer .row{
+    display: block;
+  }
 }
 
 
@@ -869,6 +878,7 @@ label {
     max-width: 235px;
     min-height: 282px;
   }
+  
 }
 
 @media (max-width: 320px){
