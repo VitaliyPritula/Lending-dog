@@ -184,9 +184,7 @@ nav.dot-vrt-nav {
       color: rgb(156, 128, 192);
       text-transform: uppercase;
     }
-    .btn {
-      font-size: 26px;
-      font-family: "bebas-ciryllic";
+    .btn {;
       margin-top: 9px;
       background-color: #f8d90c;
       border-radius: 5px;
@@ -194,9 +192,10 @@ nav.dot-vrt-nav {
       height: 40px;
       a{
         color: rgb(98, 17, 201);
+        font-size: 17px;
+        font-family: "bebas-ciryllic";
       }
-    }
-    
+    }    
   }
 }
 .section-img {
@@ -461,7 +460,7 @@ label {
   
   .btn-cats{
     font-size: 29px;
-    font-family: "BebasNeueCyrillic";
+    font-family: "bebas-ciryllic";
     color: rgb(250, 248, 251);
     background-color:#9c80c0;
     text-align: center;
