@@ -326,7 +326,6 @@ h1{
 }
 .section-slic_slider {
   background-color: #dbcde9;
-  max-height: 520px;
   .slider_master {
     height: 520px;
     margin: 0 auto;
@@ -356,7 +355,7 @@ h1{
 }
 .slide-info {
   background-color: #f0e2fa;
-  width: 725px;
+  max-width: 725px;
   height: 520px;
   margin: 0 auto;
   padding: 0 30px 30px;
@@ -819,6 +818,22 @@ label {
     padding: 20px;
     left: 19%;
     max-width: 200px;
+  }
+  .section-slic_slider .slider_master h1 {
+    padding: 0;
+    text-align: left;
+  }
+  .section-slic_slider {
+    background-color: #dbcde9;
+  }
+  .slider-title {
+    padding: 30px 0;
+    display: block;
+    height: 400px;
+  }
+  .section-slic_slider .slider__item img {
+    max-width: 264px;
+    min-height: 321px;
   }
 }
 
