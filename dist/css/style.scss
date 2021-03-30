@@ -692,6 +692,7 @@ label {
   .header-phone a{
     font-size: 20px;
     z-index: 10;
+    height: 0;
   }
   .header-burger {
     display: block;
@@ -808,6 +809,9 @@ label {
   .section-img img{
     max-width: 400px;
   }  
+  .section-advantages .row{
+    text-align: center;
+  }
   .header-logo img {
     padding: 0 40px 10px;
   }
