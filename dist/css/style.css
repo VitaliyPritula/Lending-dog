@@ -220,12 +220,12 @@ nav.dot-vrt-nav {
 }
 
 .section-main .title-b .btn {
-  font-size: 25px;
-  font-family: "bebas";
+  font-size: 26px;
+  font-family: "bebas-ciryllic";
   margin-top: 9px;
   background-color: #f8d90c;
   border-radius: 5px;
-  padding: 2px 20px;
+  padding: 0px 20px;
   height: 40px;
 }
 
@@ -726,7 +726,7 @@ label {
 
 .footer .btn-cats {
   font-size: 17px;
-  font-family: "BaskerLight";
+  font-family: "bebas-ciryllic";
   color: #ac3ebb;
   background-color: #f8d90c;
   text-align: center;
