@@ -42,9 +42,12 @@ h3 {
 nav.dot-vrt-nav {
   position: fixed;
   top: 30%;
-  bottom: 53%;
+  bottom: 35%;
   left: 85%;
   width: 60px;
+  a{
+    margin-bottom: 10px;
+  }
 }
 
 .header {
