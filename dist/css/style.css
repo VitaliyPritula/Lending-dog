@@ -220,8 +220,6 @@ nav.dot-vrt-nav {
 }
 
 .section-main .title-b .btn {
-  font-size: 26px;
-  font-family: "bebas-ciryllic";
   margin-top: 9px;
   background-color: #f8d90c;
   border-radius: 5px;
@@ -231,6 +229,8 @@ nav.dot-vrt-nav {
 
 .section-main .title-b .btn a {
   color: #6211c9;
+  font-size: 17px;
+  font-family: "bebas-ciryllic";
 }
 
 .section-img {
@@ -538,7 +538,7 @@ label {
 
 .time-section .btn-cats {
   font-size: 29px;
-  font-family: "BebasNeueCyrillic";
+  font-family: "bebas-ciryllic";
   color: #faf8fb;
   background-color: #9c80c0;
   text-align: center;
