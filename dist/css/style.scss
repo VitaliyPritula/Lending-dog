@@ -654,6 +654,12 @@ label {
     background-image: url("../img/calendar.png");
     background-repeat: no-repeat;    
     background-position: right;    
+    &:hover{
+      cursor: pointer;
+    }
+    &[readonly]{
+      background-color: transparent;
+    }
 }
 
 @media (min-width: 1440px) {
