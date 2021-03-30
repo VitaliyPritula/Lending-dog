@@ -760,7 +760,7 @@ label {
   cursor: pointer;
 }
 
-.datepicker-custom:read-only {
+.datepicker-custom[readonly] {
   background-color: transparent;
 }
 
