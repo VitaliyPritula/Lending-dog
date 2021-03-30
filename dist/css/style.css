@@ -756,6 +756,14 @@ label {
   background-position: right;
 }
 
+.datepicker-custom:hover {
+  cursor: pointer;
+}
+
+.datepicker-custom:read-only {
+  background-color: transparent;
+}
+
 @media (min-width: 1440px) {
   nav.dot-vrt-nav {
     left: 79%;

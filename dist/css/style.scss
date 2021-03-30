@@ -651,7 +651,13 @@ label {
 .datepicker-custom {
     background-image: url("../img/calendar.png");
     background-repeat: no-repeat;    
-    background-position: right;    
+    background-position: right;
+    &:hover{
+      cursor: pointer;
+    }
+    &:read-only{
+      background-color: transparent;
+    }
 }
 
 @media (min-width: 1440px) {
