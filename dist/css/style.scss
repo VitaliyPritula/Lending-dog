@@ -27,6 +27,10 @@
   margin: 0;
   padding: 0;
 }
+body._lock{
+  overflow: hidden;
+}
+
 a {
   text-decoration: none;
 }
@@ -132,7 +136,6 @@ nav.dot-vrt-nav {
   }
 }
 
-
 .onepage-pagination {
   position: absolute;
   right: 17%;
@@ -187,7 +190,7 @@ nav.dot-vrt-nav {
       color: rgb(156, 128, 192);
       text-transform: uppercase;
     }
-    .btn {;
+    .btn {
       margin-top: 9px;
       background-color: #f8d90c;
       border-radius: 5px;
@@ -710,6 +713,7 @@ label {
     z-index: 2;
     margin: 22px 0 0;
     transition: all 0.3s else 0s;
+
   }
   .header-burger::after,
   .header-burger::before {
@@ -741,11 +745,11 @@ label {
   }
   .header-burger.active:before {
     transform: rotate(45deg);
-    top: 9px;
+    top: -40px;
   }
   .header-burger.active::after {
     transform: rotate(-45deg);
-    bottom: 9px;
+    bottom: 58px;
   }
   .menu-nav {
     position: fixed;

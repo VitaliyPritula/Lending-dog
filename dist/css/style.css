@@ -35,6 +35,10 @@
   padding: 0;
 }
 
+body._lock {
+  overflow: hidden;
+}
+
 a {
   text-decoration: none;
 }
@@ -856,12 +860,12 @@ label {
   .header-burger.active:before {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
-    top: 9px;
+    top: -40px;
   }
   .header-burger.active::after {
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
-    bottom: 9px;
+    bottom: 58px;
   }
   .menu-nav {
     position: fixed;

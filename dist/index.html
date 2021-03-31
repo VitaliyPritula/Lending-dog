@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,7 +18,7 @@
     <section class="section-main section" id="sec1">
       <header class="header">
         <div class="header-title">
-          <h1>МЫ ОТКРЫЛИСЬ!</h1>
+          <h1>20% скидка</h1>
         </div>
         <div class="header-logo">
           <img src="img/logo.png" alt="">
@@ -33,12 +32,12 @@
         </div>
         <nav class="menu-nav">
           <ul class="header_list">
-            <li><a href="#work" class="header_li">Наши работы</a></li>
-            <li><a href="#master" class="hteader_li">Наши мастера</a></li>
-            <li><a href="#price" class="header_li">Прайс</a></li>
-            <li><a href="#galerea" class="header_li">Галлерея</a></li>
-            <li><a href="#review" class="header_li">Отзыв</a></li>
-            <li><a href="#contact" class="header_li">Контакты</a></li>
+            <li><a data-goto=".work" href="#" class="header_li">Наши работы</a></li>
+            <li><a data-goto=".maste" href="#" class="hteader_li">Наши мастера</a></li>
+            <li><a data-goto=".price" href="#" class="header_li">Прайс</a></li>
+            <li><a data-goto=".zapis" href="#" class="header_li">Галлерея</a></li>
+            <li><a data-goto=".review" href="#" class="header_li">Отзыв</a></li>
+            <li><a data-goto=".contact" href="#" class="header_li">Контакты</a></li>
           </ul>
         </nav>
         <nav class="dot-vrt-nav">
@@ -87,7 +86,7 @@
     </section>
     <section class="section-our_work section" id="sec2">
       <div class="container">
-        <div id="work"></div>
+        <div class="work"></div>
         <h1>Наши работы</h1>
         <hr>
         <div class="row">
@@ -128,10 +127,10 @@
     </section>
     <section class="section-slic_slider" id="sec3">
       <div class="container">
+        <div class="maste"></div>
         <div class="row">
           <div class="slider slider_master">
             <div class="slider__item filter">
-              <div id="master"></div>
               <div class="slide-info">
                 <h1>Наши мастера</h1>
                 <hr>
@@ -185,7 +184,7 @@
     </section>
     <section class="section-prics" id="sec4">
       <div class="container mobile-margin-top">
-        <div id="price" class="">
+        <div class="price" class="">
           <h1>Прайс</h1>
           <hr>
         </div>
@@ -1636,7 +1635,7 @@
     <section class="section-recording"id="sec5">
       <div class="container">
         <div class="recording">
-          <div id="zapis"></div>
+          <div class="zapis"></div>
           <div class="form-group">            
             <div class="input-group">
               <input class="form-control" type="text" name="name" placeholder="Имя">
@@ -1697,7 +1696,7 @@
       <div class="container">
         <h1>Отзыв</h1>
         <hr>
-        <div id="review"></div>
+        <div class="review"></div>
         <div class="row">
           <div class="col">
 
@@ -1756,7 +1755,7 @@
       <div class="container">
         <h1>Контакты</h1>
         <hr>
-        <div id="contact"></div>
+        <div class="contact"></div>
         <div class="row justify-content-md-center">
           <div class="col contact">
           <div>Адрес:  Москва, ул. Долгоруковская, 40</div>
