@@ -44,22 +44,19 @@ const menuLinks = document.querySelectorAll('.header_li[data-goto]');
 if(menuLinks.length > 0) {
     menuLinks.forEach(menuLink => {
         menuLink.addEventListener("click", onMenuLinkClick);
-    });
-
-    if(header-burger .menu-nav.contains('active')) {
-        document.body.classList.remove('lock');
-        menu-burger.classList.remove('active');
-        menuBody.classList.remove('active');
-    }
-
+    });    
     function onMenuLinkClick(e) {
         const menuLink = e.target;
         if(menuLink.dataset.goto && document.querySelector(menuLink.dataset.goto)) {
             const gotoBlock = document.querySelector(menuLink.dataset.goto);
             const gotoBlockValue = gotoBlock.getBoundingClientRect().top + pageYOffset - document.querySelector('header').offsetHeight;
 
+            // if(header-burger .menu-nav.contains('active')){
+            //     document.body.classList.remove('lock');
+            //     header-burger.classList.remove('active');
+            //     menu-nav.classList.remove('active');
+            // }
             
-
             window.scrollTo({
                 top: gotoBlockValue,
                 behavior: "smooth"
