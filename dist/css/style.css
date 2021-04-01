@@ -67,14 +67,11 @@ nav.dot-vrt-nav a {
 }
 
 .header {
-  max-width: 1050px;
-  padding: 0 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 0 auto;
 }
 
 .header-title {
@@ -83,12 +80,10 @@ nav.dot-vrt-nav a {
   height: 500px;
   border-radius: 0 100% 100% 0 / 0 50% 50% 0;
   background: #ac86b6;
-  position: relative;
 }
 
 .header-title h1 {
-  position: absolute;
-  padding: 97% 0;
+  margin: 89% 0 0;
   font-size: 47px;
   -webkit-transform: rotate(-35deg);
           transform: rotate(-35deg);
@@ -100,7 +95,6 @@ nav.dot-vrt-nav a {
 }
 
 .header-logo {
-  width: 400px;
   text-align: center;
 }
 
@@ -114,13 +108,11 @@ nav.dot-vrt-nav a {
   color: #726f74;
   text-align: center;
   letter-spacing: 2px;
+  font-weight: 800;
 }
 
 .header-phone {
   padding: 30px 0 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .header-phone a {
@@ -194,7 +186,7 @@ nav.dot-vrt-nav a {
 }
 
 .container {
-  max-width: 1024px;
+  max-width: 1054px;
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
@@ -228,16 +220,13 @@ nav.dot-vrt-nav a {
 .section-main .title-b .btn {
   position: fixed;
   right: 21%;
-  margin-top: 9px;
+  margin-top: 8px;
   background-color: #f8d90c;
   border-radius: 5px;
-  padding: 0px 20px;
+  padding: 7px 20px;
   height: 40px;
-  z-index: 100;
-}
-
-.section-main .title-b .btn a {
   color: #6211c9;
+  z-index: 100;
   font-size: 17px;
   font-family: "bebas-ciryllic";
 }
@@ -773,9 +762,12 @@ label {
   background-color: transparent;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1500px) {
   nav.dot-vrt-nav {
     left: 79%;
+  }
+  .section-main .title-b .btn {
+    right: 27%;
   }
 }
 
@@ -795,7 +787,7 @@ label {
 @media (max-width: 768px) {
   nav.dot-vrt-nav {
     left: 90%;
-    bottom: 40%;
+    bottom: 22%;
   }
   .header-title {
     margin: -35% 0 0 -35%;
@@ -916,6 +908,11 @@ label {
     max-width: 349px;
     font-size: 14px;
     margin: 0 auto;
+  }
+  .section-slic_slider .slider_master .slick-dots {
+    position: absolute;
+    top: 95%;
+    left: 45%;
   }
   .footer .contact span a {
     font-size: 21px;
