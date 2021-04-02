@@ -47,7 +47,7 @@ nav.dot-vrt-nav {
   position: fixed;
   top: 30%;
   bottom: 35%;
-  left: 85%;
+  left: 79%;
   width: 60px;
   a{
     margin-bottom: 10px;
@@ -164,6 +164,7 @@ nav.dot-vrt-nav {
 .container {
   max-width: 1054px;
   width: 100%;
+  position: relative;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -183,9 +184,13 @@ nav.dot-vrt-nav {
       color: rgb(156, 128, 192);
       text-transform: uppercase;
     }
+    .btn-section{
+      position: absolute;
+      right: 0;
+    }
     .btn {
+      right: 22%;
       position: fixed;
-      right: 21%;
       margin-top: 8px;
       background-color: #f8d90c;
       border-radius: 5px;
@@ -674,9 +679,9 @@ label {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1500px) {
   nav.dot-vrt-nav {
-    left: 79%;
+    // left: 71%;
   } 
   
 }
@@ -687,11 +692,17 @@ label {
   } 
  .header-title{
    margin-top: -24%;
+   margin-left: -2%;
  }
 
   .header-logo{
     width: 360px;
   }
+  .section-main .title-b .btn {
+    right: 12%;
+    position: fixed;
+    
+  } 
 }
 @media (max-width: 768px) {
   nav.dot-vrt-nav {
