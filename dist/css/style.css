@@ -714,27 +714,23 @@ label {
   font-family: "BaskervilleLight";
 }
 
-.footer .form-control::-webkit-input-placeholder {
+.footer .recording input::-webkit-input-placeholder {
   padding: 0;
-  font-size: 16px;
   color: #785d86;
 }
 
-.footer .form-control:-ms-input-placeholder {
+.footer .recording input:-ms-input-placeholder {
   padding: 0;
-  font-size: 16px;
   color: #785d86;
 }
 
-.footer .form-control::-ms-input-placeholder {
+.footer .recording input::-ms-input-placeholder {
   padding: 0;
-  font-size: 16px;
   color: #785d86;
 }
 
-.footer .form-control::placeholder {
+.footer .recording input::placeholder {
   padding: 0;
-  font-size: 16px;
   color: #785d86;
 }
 

@@ -612,16 +612,15 @@ label {
       margin: 10px 0;
       width: 100%;
       font-family: "BaskervilleLight";    
-     
+      
+      &::placeholder{
+          padding: 0;
+          // font-size: 16px;
+          color: #785d86;
+        }
     }
-    
   }
-  .form-control::placeholder{
-    padding: 0;
-    font-size: 16px;
-    color: #785d86;
     
-  }
   .fa-calendar:before {
     content: "\f133";
   }
