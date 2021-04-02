@@ -105,10 +105,10 @@ nav.dot-vrt-nav a {
 .header-logo div {
   font-size: 20px;
   font-family: "BaskerLight";
-  color: #726f74;
+  color: #59565a;
   text-align: center;
   letter-spacing: 2px;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 .header-phone {
@@ -490,7 +490,7 @@ label {
 }
 
 .section-recording .recording {
-  max-width: 410px;
+  max-width: 485px;
   margin: 0 auto;
   padding: 30px 0 50px;
 }
@@ -501,13 +501,13 @@ label {
   border-color: #c7c6c7;
   margin: 20px 0;
   width: 100%;
-  font-size: 16.667px;
-  font-family: "BaskervilleLight";
 }
 
 .section-recording .form-control {
   padding: 0;
-  font-size: 16px;
+  font-size: 18px;
+  font-family: "BaskerLight";
+  color: #726f74;
 }
 
 .section-recording .time-section div {
@@ -527,7 +527,7 @@ label {
 }
 
 .time-section div {
-  font-size: 13px;
+  font-size: 20px;
   font-family: "Avant";
   color: #726f74;
   line-height: 2;
@@ -537,8 +537,8 @@ label {
 .time-section .btn-cats {
   font-size: 29px;
   font-family: "bebas-ciryllic";
-  color: #faf8fb;
-  background-color: #9c80c0;
+  color: #8708fe;
+  background-color: #f8d90c;
   text-align: center;
   padding: 0 65px;
   width: 100%;
@@ -667,19 +667,24 @@ label {
 
 .footer .contact {
   padding: 30px 0 0;
-  font-size: 20px;
-  font-family: "BaskerLight";
+  font-size: 25px;
+  font-family: "bebas-ciryllic";
 }
 
 .footer .contact a {
-  color: #939197;
+  color: #4e4a52;
 }
 
-.footer .contact div {
+.footer .contact-site {
+  color: #4e4a52;
   padding: 0 0 50px;
 }
 
-.footer .contact span a {
+.footer .contact-site img {
+  margin: 0 20px 0 0;
+}
+
+.footer .contact .phone {
   font-size: 25px;
   font-weight: 800;
   font-family: "Avant";
@@ -693,12 +698,13 @@ label {
 }
 
 .footer .recording {
-  max-width: 310px;
+  max-width: 410px;
   margin: 0 auto;
   padding: 5px 0 30px;
 }
 
 .footer .recording input {
+  font-size: 25px;
   background-color: transparent;
   outline: 0;
   border-width: 0 0 1px;
@@ -708,9 +714,28 @@ label {
   font-family: "BaskervilleLight";
 }
 
-.footer .form-control {
+.footer .form-control::-webkit-input-placeholder {
   padding: 0;
   font-size: 16px;
+  color: #785d86;
+}
+
+.footer .form-control:-ms-input-placeholder {
+  padding: 0;
+  font-size: 16px;
+  color: #785d86;
+}
+
+.footer .form-control::-ms-input-placeholder {
+  padding: 0;
+  font-size: 16px;
+  color: #785d86;
+}
+
+.footer .form-control::placeholder {
+  padding: 0;
+  font-size: 16px;
+  color: #785d86;
 }
 
 .footer .fa-calendar:before {
@@ -725,7 +750,7 @@ label {
 .footer .btn-cats {
   font-size: 17px;
   font-family: "bebas-ciryllic";
-  color: #ac3ebb;
+  color: #8708fe;
   background-color: #f8d90c;
   text-align: center;
   padding: 10px 65px;
@@ -744,8 +769,11 @@ label {
 }
 
 .footer .time-section div {
+  font-size: 16px;
   font-family: "Avant";
+  text-transform: uppercase;
   padding: 15px 0 20px;
+  color: #7e58a4;
 }
 
 .datepicker-custom {
@@ -762,12 +790,9 @@ label {
   background-color: transparent;
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1440px) {
   nav.dot-vrt-nav {
     left: 79%;
-  }
-  .section-main .title-b .btn {
-    right: 27%;
   }
 }
 
@@ -775,9 +800,6 @@ label {
   nav.dot-vrt-nav {
     left: 90%;
     z-index: 1;
-  }
-  .header-title {
-    margin: -25% 0 0 -20%;
   }
   .header-logo {
     width: 360px;
@@ -788,9 +810,6 @@ label {
   nav.dot-vrt-nav {
     left: 90%;
     bottom: 22%;
-  }
-  .header-title {
-    margin: -35% 0 0 -35%;
   }
   .header-logo {
     width: 240px;

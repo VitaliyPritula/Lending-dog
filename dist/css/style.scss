@@ -83,10 +83,10 @@ nav.dot-vrt-nav {
     div {
       font-size: 20px;
       font-family: "BaskerLight";
-      color: rgb(114, 111, 116);
+      color: rgb(89, 86, 90);
       text-align: center;
       letter-spacing: 2px;
-      font-weight: 800;
+      font-weight: 900;
     }
   }
   &-phone {
@@ -418,7 +418,7 @@ label {
 
 .section-recording{
   .recording{
-   max-width: 410px;
+   max-width: 485px;
    margin: 0 auto;
    padding: 30px 0 50px;
     input{
@@ -426,14 +426,15 @@ label {
       border-width: 0 0 1px;
       border-color: #c7c6c7;
       margin: 20px 0;
-      width: 100%;
-      font-size: 16.667px;
-      font-family: "BaskervilleLight";
+      width: 100%; 
     }
+    
   }
   .form-control{
     padding: 0;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: "BaskerLight";
+    color: rgb(114, 111, 116);
   }
   .time-section div{
     font-family: "Avant";
@@ -453,7 +454,7 @@ label {
     border:none;
   }  
   div{
-    font-size: 13px;
+    font-size: 20px;
     font-family: "Avant";
     color: rgb(114, 111, 116);
     line-height: 2;
@@ -463,8 +464,8 @@ label {
   .btn-cats{
     font-size: 29px;
     font-family: "bebas-ciryllic";
-    color: rgb(250, 248, 251);
-    background-color:#9c80c0;
+    color:#8708fe;
+    background-color: #f8d90c;
     text-align: center;
     padding: 0 65px;
     width: 100%;
@@ -572,15 +573,20 @@ label {
   
   .contact{
     padding: 30px 0 0;
-    font-size: 20px;
-    font-family: "BaskerLight";
+    font-size: 25px;
+    font-family: "bebas-ciryllic";
+
     a{
-      color:#939197;
+      color: #4e4a52;
     }
-    div{
+    &-site{
+      color: #4e4a52;
       padding: 0 0 50px;
+      img{
+        margin: 0 20px 0 0;
+      }
     }
-    span a{
+    .phone{
       font-size: 25px;
       font-weight: 800;
       font-family: "Avant";
@@ -594,22 +600,27 @@ label {
     margin: 0 auto; 
   }
   .recording{
-    max-width: 310px;
+    max-width: 410px;
     margin: 0 auto;
     padding: 5px 0 30px;
     input{
+      font-size: 25px;
       background-color:transparent;  
       outline: 0;
       border-width: 0 0 1px;
       border-color: #c7c6c7;
       margin: 10px 0;
       width: 100%;
-      font-family: "BaskervilleLight";
+      font-family: "BaskervilleLight";    
+     
     }
+    
   }
-  .form-control{
+  .form-control::placeholder{
     padding: 0;
     font-size: 16px;
+    color: #785d86;
+    
   }
   .fa-calendar:before {
     content: "\f133";
@@ -623,7 +634,7 @@ label {
   .btn-cats {
     font-size: 17px;
     font-family: "bebas-ciryllic";
-    color: #ac3ebb;
+    color: rgb(135, 8, 254);
     background-color: #f8d90c;
     text-align: center;
     padding: 10px 65px;
@@ -640,42 +651,43 @@ label {
     }
   }
   .time-section{
-    
     div {
+      font-size: 16px;
       font-family: "Avant";
+      text-transform: uppercase;
       padding: 15px 0 20px;
-    }
+      color: #7e58a4;
+    } 
   }
 }
 
 .datepicker-custom {
-    background-image: url("../img/calendar.png");
-    background-repeat: no-repeat;    
-    background-position: right;    
-    &:hover{
-      cursor: pointer;
-    }
-    &[readonly]{
-      background-color: transparent;
-    }
+  background-image: url("../img/calendar.png");
+  background-repeat: no-repeat;    
+  background-position: right;    
+  &:hover{
+    cursor: pointer;
+  }
+  &[readonly]{
+    background-color: transparent;
+  }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1440px) {
   nav.dot-vrt-nav {
     left: 79%;
   } 
-  .section-main .title-b .btn {
-    right: 27%;
-  }
+  
 }
 @media (max-width: 1024px){
   nav.dot-vrt-nav {
     left: 90%;
     z-index: 1;
   } 
-  .header-title{
-   margin: -25% 0 0 -20%; 
-  }
+  // .header-title{
+  //  margin: -25% 0 0 -20%; 
+  // }
+
   .header-logo{
     width: 360px;
   }
@@ -685,9 +697,9 @@ label {
     left: 90%;
     bottom:22%;
   }
-  .header-title{
-    margin: -35% 0 0 -35%; 
-   }
+  // .header-title{
+  //   margin: -35% 0 0 -35%; 
+  //  }
    .header-logo{
     width: 240px;
     margin: 0 auto;
