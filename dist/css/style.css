@@ -677,7 +677,7 @@ label {
 
 .footer .contact-site {
   color: #4e4a52;
-  padding: 0 0 50px;
+  padding: 0 0 30px;
 }
 
 .footer .contact-site img {
@@ -711,27 +711,31 @@ label {
   border-color: #c7c6c7;
   margin: 10px 0;
   width: 100%;
-  font-family: "BaskervilleLight";
 }
 
 .footer .recording input::-webkit-input-placeholder {
-  padding: 0;
-  color: #785d86;
+  color: #4e4a52;
+  font-family: "bebas-ciryllic";
 }
 
 .footer .recording input:-ms-input-placeholder {
-  padding: 0;
-  color: #785d86;
+  color: #4e4a52;
+  font-family: "bebas-ciryllic";
 }
 
 .footer .recording input::-ms-input-placeholder {
-  padding: 0;
-  color: #785d86;
+  color: #4e4a52;
+  font-family: "bebas-ciryllic";
 }
 
 .footer .recording input::placeholder {
+  color: #4e4a52;
+  font-family: "bebas-ciryllic";
+}
+
+.footer .form-control {
   padding: 0;
-  color: #785d86;
+  font-size: 16px;
 }
 
 .footer .fa-calendar:before {
@@ -766,9 +770,10 @@ label {
 
 .footer .time-section div {
   font-size: 16px;
-  font-family: "Avant";
+  font-family: "bebas-ciryllic";
   text-transform: uppercase;
-  padding: 15px 0 20px;
+  padding: 10px 0 20px;
+  line-height: 1;
   color: #7e58a4;
 }
 
@@ -797,6 +802,9 @@ label {
     left: 90%;
     z-index: 1;
   }
+  .header-title {
+    margin-top: -24%;
+  }
   .header-logo {
     width: 360px;
   }
@@ -806,6 +814,9 @@ label {
   nav.dot-vrt-nav {
     left: 90%;
     bottom: 22%;
+  }
+  .header-title {
+    margin-top: -35%;
   }
   .header-logo {
     width: 240px;
