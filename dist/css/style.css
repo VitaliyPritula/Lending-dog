@@ -35,6 +35,10 @@
   padding: 0;
 }
 
+.wrap {
+  position: relative;
+}
+
 body._lock {
   overflow: hidden;
 }
@@ -218,15 +222,12 @@ nav.dot-vrt-nav a {
   text-transform: uppercase;
 }
 
-.section-main .title-b .btn-section {
-  position: absolute;
-  right: 0;
-}
-
 .section-main .title-b .btn {
-  right: 22%;
   position: fixed;
-  margin-top: 8px;
+  right: 22%;
+  bottom: 1%;
+  z-index: 140;
+  cursor: pointer;
   background-color: #f8d90c;
   border-radius: 5px;
   padding: 7px 20px;

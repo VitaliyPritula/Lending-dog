@@ -27,6 +27,9 @@
   margin: 0;
   padding: 0;
 }
+.wrap{
+  position: relative;
+}
 body._lock{
   overflow: hidden;
 }
@@ -184,14 +187,12 @@ nav.dot-vrt-nav {
       color: rgb(156, 128, 192);
       text-transform: uppercase;
     }
-    .btn-section{
-      position: absolute;
-      right: 0;
-    }
-    .btn {
-      right: 22%;
+    .btn {      
       position: fixed;
-      margin-top: 8px;
+      right: 22%;
+      bottom: 1%;
+      z-index: 140;
+      cursor: pointer;
       background-color: #f8d90c;
       border-radius: 5px;
       padding: 7px 20px;
@@ -199,9 +200,7 @@ nav.dot-vrt-nav {
       color: rgb(98, 17, 201);
       z-index: 100;
       font-size: 17px;
-      font-family: "bebas-ciryllic";
-      
-      
+      font-family: "bebas-ciryllic";     
     }    
   }
 }
@@ -679,11 +678,11 @@ label {
   }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1440px) {
   nav.dot-vrt-nav {
     // left: 71%;
   } 
-  
+
 }
 @media (max-width: 1024px){
   nav.dot-vrt-nav {
