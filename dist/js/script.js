@@ -42,6 +42,21 @@ $(document).ready(function () {
         slidesToShow: 1,
         autoplay: false,
         speed: 1000,
+        // responsive:[
+		// 	{
+		// 		breakpoint: 768,
+		// 		settings: {
+		// 			slidesToShow:2
+		// 		}
+		// 	},
+		// 	{
+		// 		breakpoint: 425,
+		// 		settings: {
+		// 			slidesToShow:1,
+        //             slidesPerRow:1
+		// 		}
+		// 	}
+		// ]
     });
 });
 

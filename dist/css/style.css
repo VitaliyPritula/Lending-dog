@@ -58,8 +58,9 @@ nav.dot-vrt-nav {
   position: fixed;
   top: 30%;
   bottom: 35%;
-  left: 79%;
+  left: 82%;
   width: 60px;
+  z-index: 10;
 }
 
 nav.dot-vrt-nav a {
@@ -626,6 +627,16 @@ label {
   text-align: center;
 }
 
+.section-review img {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.section-review img:hover {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+
 .section-review a {
   color: #e1d9eb;
   -webkit-text-decoration: revert;
@@ -754,11 +765,12 @@ label {
 }
 
 .footer .btn-cats {
-  font-size: 17px;
+  font-size: 25px;
   font-family: "bebas-ciryllic";
-  color: #8708fe;
+  color: #7e58a4;
   background-color: #f8d90c;
   text-align: center;
+  letter-spacing: 3px;
   padding: 10px 65px;
   font-weight: bold;
   width: 100%;
@@ -775,12 +787,11 @@ label {
 }
 
 .footer .time-section div {
-  font-size: 16px;
+  font-size: 25px;
+  color: #4e4a52;
   font-family: "bebas-ciryllic";
   text-transform: uppercase;
-  padding: 10px 0 20px;
-  line-height: 1;
-  color: #7e58a4;
+  padding: 10px 0 0;
 }
 
 .datepicker-custom {
@@ -835,6 +846,9 @@ label {
         -ms-flex: 0 0 40px;
             flex: 0 0 40px;
   }
+  .header-phone {
+    padding: 30px 15px 0 0;
+  }
   .header-phone a {
     font-size: 20px;
     z-index: 10;
@@ -842,9 +856,12 @@ label {
   }
   .header-burger {
     display: block;
-    position: relative;
+    position: absolute;
     width: 30px;
     height: 20px;
+    top: 0;
+    right: 0;
+    right: 10px;
     z-index: 2;
     margin: 22px 0 0;
     -webkit-transition: all 0.3s else 0s;
@@ -884,12 +901,12 @@ label {
   .header-burger.active:before {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
-    top: -40px;
+    top: 0px;
   }
   .header-burger.active::after {
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
-    bottom: 58px;
+    bottom: 18px;
   }
   .menu-nav {
     position: fixed;
@@ -952,11 +969,11 @@ label {
 
 @media (max-width: 425px) {
   .header-title {
-    margin: -70% 0 0 -76%;
+    margin: -68% 0 0 -18%;
   }
   .header-title h1 {
     font-size: 40px;
-    padding: 78% 27% 0;
+    padding: 15% 27% 0;
   }
   .section-img img {
     max-width: 400px;
