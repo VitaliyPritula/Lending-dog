@@ -857,6 +857,7 @@ label {
  .slider-desktop{
   display: none;
  }
+ 
  .slider-mobail{
    display: block;
  }
@@ -883,12 +884,28 @@ label {
     font-size: 23px;
     padding: 10px 0 0 0;
   }
-  .section-our_work .slider_title {
-    top: 38%;
-    padding: 20px;
-    left: 19%;
-    max-width: 200px;
+  .section-our_work{
+    background-color:#dbcde9;
+    .slider_title {
+      top: 70%;
+      text-align: center;
+      padding: 0 20px;
+      position: relative;
+      left: 0;
+      margin: 0 auto;
+      max-width: 200px;
+      z-index: 2;
+      background-color:transparent;
+    }
+    .slider{
+      padding: 0 0 30px;
+    }
+    .row{
+      padding-bottom: 20px;
+    }
   }
+  
+  
   .section-slic_slider .slider_master h1 {
     padding: 0;
   }
