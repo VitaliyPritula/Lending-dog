@@ -60,29 +60,6 @@ $(document).ready(function () {
     });
 });
 
-$(document).ready(function () {
-    $.datetimepicker.setLocale('ru');
-
-    $('#datepicker1').datetimepicker({
-        timepicker: false,
-        format: 'd M y',
-        minDate:'0'
-    });
-    $('#datepicker2').datetimepicker({
-        datepicker: false,
-        format: 'H:i'
-    });
-    $('#datepicker3').datetimepicker({
-        timepicker: false,
-        format: 'd M y',
-        minDate:'0'
-    });
-    $('#datepicker4').datetimepicker({
-        datepicker: false,
-        format: 'H:i'
-    });
-});
-
 const raitengItemsList = document.querySelectorAll('.raiteng_item');
 const raitengItemsArray = Array.prototype.slice.call(raitengItemsList);
 
