@@ -852,6 +852,12 @@ label {
 }
 
 @media (max-width: 425px) {
+ .slider-desktop{
+  display: none;
+ }
+ .slider-mobail{
+   display: block;
+ }
   .header-title {
     margin: -68% 0 0 -18%;
     h1 {
@@ -912,7 +918,6 @@ label {
     display: block;
   }
 }
-
 
 @media (max-width: 375px){
   .header-title {
@@ -987,4 +992,4 @@ label {
     max-width: 205px;
     min-height: 271px;
   }
-}
+}}

@@ -808,6 +808,10 @@ label {
   background-color: transparent;
 }
 
+.slider-mobail {
+  display: none;
+}
+
 @media (max-width: 1024px) {
   nav.dot-vrt-nav {
     left: 90%;
@@ -973,6 +977,12 @@ label {
 }
 
 @media (max-width: 425px) {
+  .slider-desktop {
+    display: none;
+  }
+  .slider-mobail {
+    display: block;
+  }
   .header-title {
     margin: -68% 0 0 -18%;
   }
@@ -1057,12 +1067,18 @@ label {
     max-width: 235px;
     min-height: 282px;
   }
-  .row {
+  .footer .row {
     display: block;
+  }
+  .footer .col {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) and (max-width: 320px) {
   .header-title {
     margin: -96% 0 0 -35%;
   }
