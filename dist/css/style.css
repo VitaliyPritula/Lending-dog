@@ -794,6 +794,10 @@ label {
   padding: 10px 0 0;
 }
 
+.slider-mobail {
+  display: none;
+}
+
 .datepicker-custom {
   background-image: url("../img/calendar.png");
   background-repeat: no-repeat;
@@ -1002,11 +1006,25 @@ label {
     font-size: 23px;
     padding: 10px 0 0 0;
   }
+  .section-our_work {
+    background-color: #dbcde9;
+  }
   .section-our_work .slider_title {
-    top: 38%;
-    padding: 20px;
-    left: 19%;
+    top: 70%;
+    text-align: center;
+    padding: 0 20px;
+    position: relative;
+    left: 0;
+    margin: 0 auto;
     max-width: 200px;
+    z-index: 2;
+    background-color: transparent;
+  }
+  .section-our_work .slider {
+    padding: 0 0 30px;
+  }
+  .section-our_work .row {
+    padding-bottom: 20px;
   }
   .section-slic_slider .slider_master h1 {
     padding: 0;
