@@ -692,8 +692,7 @@ label {
 
 @media (max-width: 1024px){
   nav.dot-vrt-nav {
-    left: 90%;
-    z-index: 1;
+    display: none;
   } 
  .header-title{
    margin-top: -24%;
@@ -705,7 +704,8 @@ label {
   }
   .header .btn-section {
     right: 7%;    
-    margin: 0;
+    margin-bottom: 0;    
+    padding-bottom: 3px;
   } 
 }
 @media (max-width: 768px) {
@@ -714,8 +714,7 @@ label {
     bottom:22%;
   }
   .header .btn-section {
-    right: 3%;
-    margin: 0;
+    right: 3%;    
   }
   .header-title {
     margin-top: -35%;
@@ -884,7 +883,7 @@ label {
 
   .header-logo{
     margin: -40px auto 0 auto;
-  }bni
+  }
 
   .header-logo img {
     padding: 0;
@@ -905,8 +904,7 @@ label {
 
   .header {
     .btn-section {
-      right: 8%;
-      margin: 0;
+      right: 8%;      
       .btn{
       font-size: 14px;
       padding: 5px 8px;
@@ -975,16 +973,19 @@ label {
 }
 
 @media (max-width: 375px){
-  .section-img {
+
+  #sec1{
+    margin-bottom: -1px;
+  }
+
+  .header-img {
+    .section-img {
     padding: 22px 0 0;
+    }
   }
   .section-img img {
     max-width: 330px;
-  }
-  .section-main .title-b div {
-    font-size: 20px;
-    padding: 10px 0;
-  }
+  }    
   .section-our_work .slider__item img {
     padding: 0 47px 30px 0;
   }
