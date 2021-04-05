@@ -949,6 +949,9 @@ label {
   .col{
     flex-direction: row-reverse;
   }
+  .section-our_work .slider__item img {
+    padding: 0;
+  }
 }
 
 @media (max-width: 320px){

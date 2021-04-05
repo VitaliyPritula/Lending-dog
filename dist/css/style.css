@@ -808,10 +808,6 @@ label {
   background-color: transparent;
 }
 
-.slider-mobail {
-  display: none;
-}
-
 @media (max-width: 1024px) {
   nav.dot-vrt-nav {
     left: 90%;
@@ -1075,6 +1071,9 @@ label {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
+  }
+  .footer .section-our_work .slider__item img {
+    padding: 0;
   }
 }
 
