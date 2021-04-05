@@ -125,6 +125,36 @@ nav.dot-vrt-nav a {
   line-height: 1.014;
 }
 
+.header .header-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+}
+
+.header .btn-section {
+  right: 20%;
+  position: fixed;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  z-index: 100;
+  margin-bottom: 27px;
+}
+
+.header .btn-section .btn {
+  background-color: #f8d90c;
+  border-radius: 5px;
+  padding: 7px 20px;
+  height: 40px;
+  color: #6211c9;
+  font-size: 17px;
+  font-family: "bebas-ciryllic";
+}
+
 .header_list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -217,25 +247,6 @@ nav.dot-vrt-nav a {
   font-family: "bebas-ciryllic";
   color: #9c80c0;
   text-transform: uppercase;
-}
-
-.section-main .title-b .btn-section {
-  position: absolute;
-  right: 0;
-}
-
-.section-main .title-b .btn {
-  right: 22%;
-  position: fixed;
-  margin-top: 8px;
-  background-color: #f8d90c;
-  border-radius: 5px;
-  padding: 7px 20px;
-  height: 40px;
-  color: #6211c9;
-  z-index: 100;
-  font-size: 17px;
-  font-family: "bebas-ciryllic";
 }
 
 .section-img {
@@ -824,9 +835,9 @@ label {
   .header-logo {
     width: 360px;
   }
-  .section-main .title-b .btn {
-    right: 12%;
-    position: fixed;
+  .header .btn-section {
+    right: 7%;
+    margin: 0;
   }
 }
 
@@ -835,10 +846,9 @@ label {
     left: 90%;
     bottom: 22%;
   }
-  .section-main .title-b .btn {
-    right: 9%;
-    position: fixed;
-    bottom: 10px;
+  .header .btn-section {
+    right: 3%;
+    margin: 0;
   }
   .header-title {
     margin-top: -35%;
@@ -859,9 +869,9 @@ label {
     padding: 30px 15px 0 0;
   }
   .header-phone a {
-    font-size: 20px;
     z-index: 10;
     height: 0;
+    font-size: 16px;
   }
   .header-burger {
     display: block;
@@ -977,6 +987,10 @@ label {
 }
 
 @media (max-width: 425px) {
+  .header-logo div {
+    margin-top: 10px;
+    font-size: 16px;
+  }
   .slider-desktop {
     display: none;
   }
@@ -984,11 +998,13 @@ label {
     display: block;
   }
   .header-title {
-    margin: -68% 0 0 -18%;
+    margin: -65% 0 0 -23%;
+    width: 250px;
+    height: 419px;
   }
   .header-title h1 {
-    font-size: 40px;
-    padding: 15% 27% 0;
+    font-size: 30px;
+    padding: 27% 27% 0;
   }
   .section-img img {
     max-width: 400px;
@@ -996,15 +1012,43 @@ label {
   .section-advantages .row {
     text-align: center;
   }
-  .header-logo img {
-    padding: 0 40px 10px;
+  .header-logo {
+    margin: -40px auto 0 auto;
+  }
+  bni
+.header-logo img {
+    padding: 0;
+    height: 130px;
   }
   .header-phone {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
     margin: 0 auto;
+    padding: 15px 0 0 0;
+  }
+  .header-img {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+  .header-img .section-img {
+    padding: 0;
+  }
+  .header .btn-section {
+    right: 8%;
+    margin: 0;
+  }
+  .header .btn-section .btn {
+    font-size: 14px;
+    padding: 5px 8px;
+    height: 31px;
   }
   .section-main .title-b div {
     font-size: 23px;
-    padding: 10px 0 0 0;
+    padding: 13px 23px;
+    text-align: center;
   }
   .section-our_work {
     background-color: #dbcde9;
@@ -1059,11 +1103,6 @@ label {
 }
 
 @media (max-width: 375px) {
-  .header-title {
-    margin: -76% 0 0 -24%;
-    width: 300px;
-    height: 485px;
-  }
   .section-img {
     padding: 22px 0 0;
   }
