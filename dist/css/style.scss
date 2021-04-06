@@ -511,9 +511,18 @@ label {
   } 
 }
 .section-advantages{
+  padding: 0 0 80px;
   .row{
     max-width: 900px;
     margin: 0 auto; 
+  }
+  .col{
+    text-align: center;
+
+  }
+  blockquote{
+    font-family: "Avant";
+    color: #ac86b6;
   }
   img{
     width: 250px;
