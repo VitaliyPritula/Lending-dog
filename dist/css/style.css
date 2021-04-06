@@ -1164,6 +1164,11 @@ label {
     color: #726f74;
     padding-bottom: 5px;
   }
+  .footer-contacts .contact {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
 }
 
 @media (max-width: 375px) {
@@ -1199,6 +1204,7 @@ label {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
+    padding: 0;
   }
   .footer .section-our_work .slider__item img {
     padding: 0;
@@ -1244,6 +1250,14 @@ label {
   .section-slic_slider .slider__item img {
     max-width: 205px;
     min-height: 271px;
+  }
+  .footer .contact {
+    font-size: 20px;
+  }
+  .footer .contact .phone {
+    font-size: 30px;
+    color: #7e58a4;
+    line-height: 1.014;
   }
 }
 /*# sourceMappingURL=style.css.map */
