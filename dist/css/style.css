@@ -613,6 +613,8 @@ label {
 .section-advantages blockquote {
   font-family: "Avant";
   color: #ac86b6;
+  max-width: 205px;
+  margin: 0 auto;
 }
 
 .section-advantages img {
