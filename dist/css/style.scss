@@ -724,6 +724,7 @@ label {
   }
   .header .btn-section {
     right: 3%;    
+    bottom: 15px;
   }
   .header-title {
     margin-top: -35%;
@@ -931,7 +932,7 @@ label {
 
   .header {
     .btn-section {
-      right: 8%;      
+      right: 8%;  
       .btn{
       font-size: 14px;
       padding: 5px 8px;
@@ -1042,10 +1043,8 @@ label {
       }
     }
   }
-  .footer-contacts .contact{
-    -webkit-box-ordinal-group: 2;
-    -ms-flex-order: 1;
-    order: 1;
+  .form{
+    flex-direction: column-reverse !important; 
   }
 }
 

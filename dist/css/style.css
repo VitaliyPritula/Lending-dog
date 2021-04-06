@@ -850,6 +850,7 @@ label {
   }
   .header .btn-section {
     right: 3%;
+    bottom: 15px;
   }
   .header-title {
     margin-top: -35%;
@@ -1164,10 +1165,11 @@ label {
     color: #726f74;
     padding-bottom: 5px;
   }
-  .footer-contacts .contact {
-    -webkit-box-ordinal-group: 2;
-    -ms-flex-order: 1;
-    order: 1;
+  .form {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
   }
 }
 
