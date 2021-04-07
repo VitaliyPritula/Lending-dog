@@ -104,8 +104,8 @@ nav.dot-vrt-nav a {
 }
 
 .header-logo div {
-  font-size: 20px;
-  font-family: "BaskerLight";
+  font-size: 18px;
+  font-family: "Avant";
   color: #59565a;
   text-align: center;
   letter-spacing: 2px;
@@ -311,7 +311,7 @@ hr {
 }
 
 h1 {
-  font-family: "BaskerLight";
+  font-family: "Avant";
   font-size: 33px;
   padding: 36px 0 10px;
   color: #726f74;
@@ -455,17 +455,14 @@ h1 {
           justify-content: center;
 }
 
-.doc {
-  font-family: "Avant-Book";
-}
-
 .doc h2 {
   font-size: 37px;
-  font-family: "BaskerLight";
+  font-family: "Avant";
   color: #521d61;
 }
 
 .doc div {
+  font-family: "Avant-Book";
   background-color: #deccea;
   max-width: 380px;
   font-size: 16px;
@@ -524,7 +521,7 @@ label {
 .section-recording .form-control {
   padding: 0;
   font-size: 18px;
-  font-family: "BaskerLight";
+  font-family: "Avant";
   color: #726f74;
 }
 
@@ -635,7 +632,7 @@ label {
 }
 
 .section-review_title {
-  font-family: "BaskerLight";
+  font-family: "Avant";
   color: #faf9fa;
   padding: 0 25px 20px;
   line-height: 1.7;
@@ -643,7 +640,7 @@ label {
 }
 
 .section-review h3 {
-  font-family: "BaskerLight";
+  font-family: "Avant";
 }
 
 .section-review .col {
@@ -855,7 +852,7 @@ label {
     bottom: 15px;
   }
   .header-title {
-    margin-top: -35%;
+    margin: -35% 0 0 -9%;
   }
   .header-logo {
     width: 240px;
@@ -1154,7 +1151,7 @@ label {
   }
   .footer .footer-contacts .form .recording input {
     font-size: 18px;
-    font-family: "BaskerLight";
+    font-family: "Avant";
     color: #726f74;
   }
   .footer .footer-contacts .form .btn-cats {
@@ -1170,6 +1167,11 @@ label {
 }
 
 @media (max-width: 375px) {
+  .header-title {
+    margin: -74% 0 0 -27%;
+    width: 250px;
+    height: 419px;
+  }
   #sec1 {
     margin-bottom: -1px;
   }
@@ -1210,7 +1212,7 @@ label {
 
 @media (max-width: 320px) {
   .header-title {
-    margin: -96% 0 0 -35%;
+    margin: -86% 0 0 -35%;
   }
   .section-img {
     padding: 26px 0 0;

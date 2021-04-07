@@ -83,8 +83,8 @@ nav.dot-vrt-nav {
       padding: 30px 40px 37px;
     }
     div {
-      font-size: 20px;
-      font-family: "BaskerLight";
+      font-size: 18px;
+      font-family: "Avant";
       color: rgb(89, 86, 90);
       text-align: center;
       letter-spacing: 2px;
@@ -265,7 +265,7 @@ hr {
 }
 
 h1{
-  font-family: "BaskerLight";
+  font-family: "Avant";
   font-size: 33px;
   padding: 36px 0 10px;
   color:#726f74;
@@ -378,13 +378,13 @@ h1{
   justify-content: center;
 }
 .doc {
-  font-family: "Avant-Book";
   h2 {
     font-size: 37px;
-    font-family: "BaskerLight";
+    font-family: "Avant";
     color: rgb(82, 29, 97);
   }
   div {
+    font-family: "Avant-Book";
     background-color: #deccea;
     max-width: 380px;
     font-size: 16px;
@@ -442,7 +442,7 @@ label {
   .form-control{
     padding: 0;
     font-size: 18px;
-    font-family: "BaskerLight";
+    font-family: "Avant";
     color: rgb(114, 111, 116);
   }
   .time-section div{
@@ -540,7 +540,7 @@ label {
     background-color: rgb(253, 253, 253);
   }
   &_title{
-    font-family: "BaskerLight";
+    font-family: "Avant";
     color: rgb(250, 249, 250);
     padding: 0 25px 20px;
     line-height: 1.7;
@@ -548,7 +548,7 @@ label {
   }
 
   h3{
-    font-family: "BaskerLight";
+    font-family: "Avant";
   }
   .col{
     color: rgb(250, 249, 250);
@@ -729,8 +729,9 @@ label {
     bottom: 15px;
   }
   .header-title {
-    margin-top: -35%;
+    margin: -35% 0 0 -9%;
   }
+  
   .header-logo{
     width: 240px;
     margin: 0 auto;
@@ -1025,8 +1026,8 @@ label {
         .recording{
           padding: 0;
           input{
-            font-size: 18px;            
-            font-family: "BaskerLight";
+            font-size: 18px;           
+            font-family: "Avant";
             color: rgb(114, 111, 116);
           }
         }
@@ -1048,7 +1049,11 @@ label {
 }
 
 @media (max-width: 375px){
-
+  .header-title {
+    margin: -74% 0 0 -27%;
+    width: 250px;
+    height: 419px;
+  }
   #sec1{
     margin-bottom: -1px;
   }
@@ -1093,7 +1098,7 @@ label {
 
 @media (max-width: 320px){
   .header-title {
-    margin: -96% 0 0 -35%;
+    margin: -86% 0 0 -35%;
   }
   .section-img {
     padding: 26px 0 0;
