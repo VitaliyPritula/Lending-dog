@@ -35,7 +35,7 @@
   padding: 0;
 }
 
-body._lock {
+body.lock {
   overflow: hidden;
 }
 
@@ -148,10 +148,10 @@ nav.dot-vrt-nav a {
 .header .btn-section .btn {
   background-color: #f8d90c;
   border-radius: 5px;
-  padding: 7px 20px;
-  height: 40px;
+  padding: 8px 20px;
+  height: 50px;
   color: #6211c9;
-  font-size: 17px;
+  font-size: 25px;
   font-family: "bebas-ciryllic";
 }
 
@@ -704,7 +704,7 @@ label {
 }
 
 .footer .contact {
-  padding: 30px 0 0;
+  padding: 30px 15px 0;
   font-size: 25px;
   font-family: "bebas-ciryllic";
 }
@@ -733,8 +733,13 @@ label {
   margin: 0 auto;
 }
 
-.footer .recording {
+.footer .form {
   max-width: 410px;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.footer .recording {
   margin: 0 auto;
   padding: 5px 0 30px;
 }
@@ -799,11 +804,9 @@ label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 900px;
   margin: 0 auto;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .slider-mobail {
@@ -941,6 +944,9 @@ label {
     transition: all 0.3s ease 0s;
     padding: 70px 10px 20px 20px;
   }
+  .header-burger.active {
+    margin-top: 87px;
+  }
   .menu-nav.active {
     top: 0;
   }
@@ -976,6 +982,9 @@ label {
     max-width: 349px;
     font-size: 14px;
     margin: 0 auto;
+  }
+  .tab-btn {
+    margin: 5px;
   }
   .section-slic_slider .slider_master .slick-dots {
     position: absolute;
@@ -1048,11 +1057,6 @@ label {
   }
   .header .btn-section {
     right: 8%;
-  }
-  .header .btn-section .btn {
-    font-size: 14px;
-    padding: 5px 8px;
-    height: 31px;
   }
   .section-main .title-b div {
     font-size: 23px;
