@@ -111,7 +111,7 @@ nav.dot-vrt-nav {
     position: fixed;
     align-self: flex-end;
     z-index: 100;
-    margin-bottom: 27px;
+    margin-bottom: 40px;
     .btn {      
       background-color: #f8d90c;
       border-radius: 5px;
@@ -590,7 +590,7 @@ label {
 }
 .footer{  
   background: linear-gradient(to bottom, #DECEED, #FFFFFF);
-  color: #939197;  
+  color: #4e4a52;  
   
   .contact{
     padding: 30px 15px 0;
@@ -601,47 +601,44 @@ label {
       color: #4e4a52;
     }
     &-site{
-      color: #4e4a52;
       padding: 0 0 30px;
       img{
-        margin: 0 20px 0 0;
-      }
+        width: 50px;
+      }     
     }
     .phone{
+      font-family: "Avant";
       font-size: 36px;      
       color: #7e58a4;
       line-height: 1.014;
     }
   }
-
   .row{
     max-width: 900px;
     margin: 0 auto; 
   }
   .form{
-    max-width: 410px;
+    max-width: 350px;
     width: 100%;
     padding: 0 15px;
   }
   .recording{
     margin: 0 auto;
-    padding: 5px 0 30px;
+    padding: 25px 0 30px;
     input{
-      font-size: 25px;
       background-color:transparent;  
       outline: 0;
       border-width: 0 0 1px;
-      border-color: #c7c6c7;
+      // border-color: #c7c6c7;
       margin: 10px 0;
       width: 100%;
-      font-family: "bebas-ciryllic";
-      color: #4e4a52;      
-    }
-    
-  }
-  .form-control{
-    padding: 0;
-    font-size: 16px;
+      font-size: 25px;
+      &::placeholder{
+        color: #77727c;
+        font-family: "bebas";
+      }
+    } 
+
   }
   .fa-calendar:before {
     content: "\f133";
@@ -658,9 +655,10 @@ label {
     color: #7e58a4;
     background-color: #f8d90c;
     text-align: center;
-    letter-spacing: 3px;
-    padding: 0px 60px;    
+    // letter-spacing: 1px;
+    padding: 0px 60px;     
     width: 100%;
+    margin: 10px 0 0 0;
     
   }
   &-title{
@@ -870,7 +868,9 @@ label {
   .footer .contact span a {
     font-size: 21px;
   }
-
+  .footer .contact .phone {
+    font-size: 25px;
+  }
 }
 
 @media (max-width: 425px) {
@@ -1139,5 +1139,8 @@ label {
   .section-slic_slider .slider__item img {
     max-width: 205px;
     min-height: 271px;
+  }
+  .footer .contact .phone {
+    font-size: 22px;
   }
 }

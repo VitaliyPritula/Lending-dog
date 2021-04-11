@@ -142,7 +142,7 @@ nav.dot-vrt-nav a {
   -ms-flex-item-align: end;
       align-self: flex-end;
   z-index: 100;
-  margin-bottom: 27px;
+  margin-bottom: 40px;
 }
 
 .header .btn-section .btn {
@@ -700,7 +700,7 @@ label {
 .footer {
   background: -webkit-gradient(linear, left top, left bottom, from(#DECEED), to(#FFFFFF));
   background: linear-gradient(to bottom, #DECEED, #FFFFFF);
-  color: #939197;
+  color: #4e4a52;
 }
 
 .footer .contact {
@@ -714,15 +714,15 @@ label {
 }
 
 .footer .contact-site {
-  color: #4e4a52;
   padding: 0 0 30px;
 }
 
 .footer .contact-site img {
-  margin: 0 20px 0 0;
+  width: 50px;
 }
 
 .footer .contact .phone {
+  font-family: "Avant";
   font-size: 36px;
   color: #7e58a4;
   line-height: 1.014;
@@ -734,31 +734,43 @@ label {
 }
 
 .footer .form {
-  max-width: 410px;
+  max-width: 350px;
   width: 100%;
   padding: 0 15px;
 }
 
 .footer .recording {
   margin: 0 auto;
-  padding: 5px 0 30px;
+  padding: 25px 0 30px;
 }
 
 .footer .recording input {
-  font-size: 25px;
   background-color: transparent;
   outline: 0;
   border-width: 0 0 1px;
-  border-color: #c7c6c7;
   margin: 10px 0;
   width: 100%;
-  font-family: "bebas-ciryllic";
-  color: #4e4a52;
+  font-size: 25px;
 }
 
-.footer .form-control {
-  padding: 0;
-  font-size: 16px;
+.footer .recording input::-webkit-input-placeholder {
+  color: #77727c;
+  font-family: "bebas";
+}
+
+.footer .recording input:-ms-input-placeholder {
+  color: #77727c;
+  font-family: "bebas";
+}
+
+.footer .recording input::-ms-input-placeholder {
+  color: #77727c;
+  font-family: "bebas";
+}
+
+.footer .recording input::placeholder {
+  color: #77727c;
+  font-family: "bebas";
 }
 
 .footer .fa-calendar:before {
@@ -776,9 +788,9 @@ label {
   color: #7e58a4;
   background-color: #f8d90c;
   text-align: center;
-  letter-spacing: 3px;
   padding: 0px 60px;
   width: 100%;
+  margin: 10px 0 0 0;
 }
 
 .footer-title {
@@ -993,6 +1005,9 @@ label {
   }
   .footer .contact span a {
     font-size: 21px;
+  }
+  .footer .contact .phone {
+    font-size: 25px;
   }
 }
 
@@ -1253,6 +1268,9 @@ label {
   .section-slic_slider .slider__item img {
     max-width: 205px;
     min-height: 271px;
+  }
+  .footer .contact .phone {
+    font-size: 22px;
   }
 }
 /*# sourceMappingURL=style.css.map */
