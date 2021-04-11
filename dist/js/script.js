@@ -3,36 +3,24 @@ $(document).ready(function () {
         $('.header-burger, .menu-nav').toggleClass('active');
         $('body').toggleClass('lock');
     });
-        
-    // плавная прокрутка при скроле
-    const menuLinks = document.querySelectorAll('.header_li[data-goto]');
-    if(menuLinks.length > 0) {
-        menuLinks.forEach(menuLink => {
-            menuLink.addEventListener("click", onMenuLinkClick);
-        });    
-        function onMenuLinkClick(e) {
-            const menuLink = e.target;
-            var headerBurger = document.querySelector(".header-burger");
-            var menuNav = document.querySelector(".menu-nav");
-            if(menuLink.dataset.goto && document.querySelector(menuLink.dataset.goto)) {
-                const gotoBlock = document.querySelector(menuLink.dataset.goto);
-                const gotoBlockValue = gotoBlock.getBoundingClientRect().top + pageYOffset - document.querySelector('header').offsetHeight;
 
-                if(headerBurger.classList.contains('active')){
-                    document.body.classList.remove('lock');
-                    headerBurger.classList.remove('active');
-                    menuNav.classList.remove('active');
-                }
-                
-                window.scrollTo({
-                    top: gotoBlockValue,
-                    behavior: "smooth"
-                });
-                e.preventDefault();
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();        
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top,
+            burger = $('.header-burger'),
+            menuNav = $('.menu-nav');
+
+            if(burger.attr('class').includes('active')){
+                $('body').removeClass('lock');
+                burger.removeClass('active');
+                menuNav.removeClass('active');
             }
-        }
-    }
+        
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
 });
+
 
 $(document).ready(function () {
     $('.slider').slick({
